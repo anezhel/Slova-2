@@ -1,0 +1,209 @@
+word	pos	level	topic	ru	uk	example	example_ru	example_uk
+sveiki	int	A1	communication	привет, здравствуйте	привіт, добрий день	Sveiki! Kā jums iet?	Здравствуйте! Как у вас дела?	Добрий день! Як у вас справи?
+paldies	int	A1	communication	спасибо	дякую	Paldies par palīdzību!	Спасибо за помощь!	Дякую за допомогу!
+lūdzu	adv	A1	communication	пожалуйста	будь ласка	Vienu kafiju, lūdzu.	Один кофе, пожалуйста.	Одну каву, будь ласка.
+atvainojiet	int	A1	communication	извините	вибачте	Atvainojiet, es nesaprotu.	Извините, я не понимаю.	Вибачте, я не розумію.
+jā	adv	A1	basics	да	так	Jā, es zinu.	Да, я знаю.	Так, я знаю.
+nē	adv	A1	basics	нет	ні	Nē, paldies.	Нет, спасибо.	Ні, дякую.
+māja	noun	A1	home	дом	будинок, дім	Mana māja ir liela.	Мой дом большой.	Мій будинок великий.
+dzīvoklis	noun	A1	home	квартира	квартира	Mūsu dzīvoklis ir centrā.	Наша квартира в центре.	Наша квартира в центрі.
+istaba	noun	A1	home	комната	кімната	Šī ir mana istaba.	Это моя комната.	Це моя кімната.
+virtuve	noun	A1	home	кухня	кухня	Virtuve ir maza.	Кухня маленькая.	Кухня маленька.
+gulta	noun	A1	home	кровать	ліжко	Gulta ir ļoti ērta.	Кровать очень удобная.	Ліжко дуже зручне.
+durvis	noun	A1	home	дверь	двері	Lūdzu, aizveriet durvis.	Пожалуйста, закройте дверь.	Будь ласка, зачиніть двері.
+logs	noun	A1	home	окно	вікно	Atver logu, lūdzu!	Открой окно, пожалуйста!	Відчини вікно, будь ласка!
+galds	noun	A1	home	стол	стіл	Atslēgas ir uz galda.	Ключи на столе.	Ключі на столі.
+krēsls	noun	A1	home	стул	стілець	Vai šis krēsls ir brīvs?	Этот стул свободен?	Цей стілець вільний?
+ģimene	noun	A1	people	семья	родина	Man ir liela ģimene.	У меня большая семья.	У мене велика родина.
+māte	noun	A1	people	мать	мати	Mana māte strādā skolā.	Моя мама работает в школе.	Моя мама працює в школі.
+tēvs	noun	A1	people	отец	батько	Mans tēvs ir ārsts.	Мой отец — врач.	Мій батько — лікар.
+draugs	noun	A1	people	друг	друг	Viņš ir mans labākais draugs.	Он мой лучший друг.	Він мій найкращий друг.
+bērns	noun	A1	people	ребёнок	дитина	Bērns guļ.	Ребёнок спит.	Дитина спить.
+vīrietis	noun	A1	people	мужчина	чоловік	Tas vīrietis ir mans kaimiņš.	Тот мужчина — мой сосед.	Той чоловік — мій сусід.
+sieviete	noun	A1	people	женщина	жінка	Šī sieviete ir skolotāja.	Эта женщина — учительница.	Ця жінка — вчителька.
+vārds	noun	A1	people	имя, слово	ім’я, слово	Mans vārds ir Anna.	Меня зовут Анна.	Мене звати Анна.
+ūdens	noun	A1	food	вода	вода	Es dzeru ūdeni.	Я пью воду.	Я п’ю воду.
+kafija	noun	A1	food	кофе	кава	No rīta es dzeru kafiju.	Утром я пью кофе.	Уранці я п’ю каву.
+tēja	noun	A1	food	чай	чай	Vai vēlaties tēju?	Хотите чаю?	Бажаєте чаю?
+maize	noun	A1	food	хлеб	хліб	Man vajag maizi un pienu.	Мне нужны хлеб и молоко.	Мені потрібні хліб і молоко.
+piens	noun	A1	food	молоко	молоко	Piens ir ledusskapī.	Молоко в холодильнике.	Молоко в холодильнику.
+ābols	noun	A1	food	яблоко	яблуко	Es katru dienu ēdu ābolu.	Я каждый день ем яблоко.	Я щодня їм яблуко.
+ola	noun	A1	food	яйцо	яйце	Brokastīs es ēdu divas olas.	На завтрак я ем два яйца.	На сніданок я їм два яйця.
+brokastis	noun	A1	food	завтрак	сніданок	Brokastis ir gatavas!	Завтрак готов!	Сніданок готовий!
+pusdienas	noun	A1	food	обед	обід	Ēdīsim pusdienas kopā?	Пообедаем вместе?	Пообідаємо разом?
+vakariņas	noun	A1	food	ужин	вечеря	Vakariņas ir septiņos.	Ужин в семь.	Вечеря о сьомій.
+ēst	verb	A1	food	есть	їсти	Es neēdu gaļu.	Я не ем мясо.	Я не їм м’яса.
+dzert	verb	A1	food	пить	пити	Dzer vairāk ūdens!	Пей больше воды!	Пий більше води!
+pilsēta	noun	A1	city	город	місто	Rīga ir liela pilsēta.	Рига — большой город.	Рига — велике місто.
+iela	noun	A1	city	улица	вулиця	Mūsu iela ir klusa.	Наша улица тихая.	Наша вулиця тиха.
+veikals	noun	A1	city	магазин	магазин	Veikals ir atvērts līdz deviņiem.	Магазин открыт до девяти.	Магазин відчинений до дев’ятої.
+autobuss	noun	A1	city	автобус	автобус	Es braucu uz darbu ar autobusu.	Я езжу на работу на автобусе.	Я їжджу на роботу автобусом.
+mašīna	noun	A1	city	машина	машина	Viņas mašīna ir sarkana.	Её машина красная.	Її машина червона.
+tirgus	noun	A1	shopping	рынок	ринок	Sestdienās mēs ejam uz tirgu.	По субботам мы ходим на рынок.	По суботах ми ходимо на ринок.
+skola	noun	A1	study	школа	школа	Mans dēls iet skolā.	Мой сын ходит в школу.	Мій син ходить до школи.
+grāmata	noun	A1	study	книга	книжка	Šī grāmata ir interesanta.	Эта книга интересная.	Ця книжка цікава.
+skolotājs	noun	A1	study	учитель	вчитель	Mūsu skolotājs ir no Liepājas.	Наш учитель из Лиепаи.	Наш учитель із Лієпаї.
+darbs	noun	A1	work	работа	робота	Man patīk mans darbs.	Мне нравится моя работа.	Мені подобається моя робота.
+strādāt	verb	A1	work	работать	працювати	Es strādāju no mājām.	Я работаю из дома.	Я працюю з дому.
+nauda	noun	A1	shopping	деньги	гроші	Man nav naudas.	У меня нет денег.	У мене немає грошей.
+pirkt	verb	A1	shopping	покупать	купувати	Es gribu pirkt jaunu telefonu.	Я хочу купить новый телефон.	Я хочу купити новий телефон.
+diena	noun	A1	time	день	день	Jauku dienu!	Хорошего дня!	Гарного дня!
+nedēļa	noun	A1	time	неделя	тиждень	Es eju uz sporta zāli trīs reizes nedēļā.	Я хожу в спортзал три раза в неделю.	Я ходжу в спортзал тричі на тиждень.
+gads	noun	A1	time	год	рік	Laimīgu Jauno gadu!	С Новым годом!	З Новим роком!
+šodien	adv	A1	time	сегодня	сьогодні	Šodien ir auksts.	Сегодня холодно.	Сьогодні холодно.
+rīt	adv	A1	time	завтра	завтра	Tiksimies rīt!	Увидимся завтра!	Побачимося завтра!
+rīts	noun	A1	time	утро	ранок	Rīts bija saulains.	Утро было солнечным.	Ранок був сонячний.
+nakts	noun	A1	time	ночь	ніч	Ar labu nakti!	Спокойной ночи!	На добраніч!
+laiks	noun	A1	time	время, погода	час, погода	Man nav laika.	У меня нет времени.	У мене немає часу.
+tagad	adv	A1	time	сейчас	зараз	Es tagad nevaru runāt.	Я сейчас не могу говорить.	Я зараз не можу говорити.
+labs	adj	A1	qualities	хороший	добрий, гарний	Tā ir laba ideja.	Это хорошая идея.	Це гарна ідея.
+slikts	adj	A1	qualities	плохой	поганий	Šodien ir slikts laiks.	Сегодня плохая погода.	Сьогодні погана погода.
+liels	adj	A1	qualities	большой	великий	Viņiem ir liels suns.	У них большая собака.	У них великий собака.
+mazs	adj	A1	qualities	маленький	маленький	Es dzīvoju mazā pilsētā.	Я живу в маленьком городе.	Я живу в маленькому місті.
+jauns	adj	A1	qualities	новый, молодой	новий, молодий	Vai tā ir jauna soma?	Это новая сумка?	Це нова сумка?
+vecs	adj	A1	qualities	старый	старий	Mana mašīna ir ļoti veca.	Моя машина очень старая.	Моя машина дуже стара.
+silts	adj	A1	nature	тёплый	теплий	Šodien ir silts.	Сегодня тепло.	Сьогодні тепло.
+auksts	adj	A1	nature	холодный	холодний	Ūdens ir auksts.	Вода холодная.	Вода холодна.
+laimīgs	adj	A1	feelings	счастливый	щасливий	Viņa izskatās laimīga.	Она выглядит счастливой.	Вона виглядає щасливою.
+noguris	adj	A1	feelings	уставший	втомлений	Viņš ir noguris pēc darba.	Он устал после работы.	Він утомився після роботи.
+iet	verb	A1	actions	идти	іти	Ejam mājās!	Пойдём домой!	Ходімо додому!
+braukt	verb	A1	actions	ехать	їхати	Rīt mēs braucam uz Jūrmalu.	Завтра мы едем в Юрмалу.	Завтра ми їдемо до Юрмали.
+redzēt	verb	A1	actions	видеть	бачити	Es redzu jūru.	Я вижу море.	Я бачу море.
+zināt	verb	A1	actions	знать	знати	Es nezinu atbildi.	Я не знаю ответа.	Я не знаю відповіді.
+gribēt	verb	A1	actions	хотеть	хотіти	Es gribu gulēt.	Я хочу спать.	Я хочу спати.
+patikt	verb	A1	feelings	нравиться	подобатися	Man patīk šī dziesma.	Мне нравится эта песня.	Мені подобається ця пісня.
+mīlēt	verb	A1	feelings	любить	любити	Es mīlu savu pilsētu.	Я люблю свой город.	Я люблю своє місто.
+lasīt	verb	A1	study	читать	читати	Es lasu pirms gulētiešanas.	Я читаю перед сном.	Я читаю перед сном.
+rakstīt	verb	A1	study	писать	писати	Uzrakstiet šeit savu vārdu.	Напишите здесь своё имя.	Напишіть тут своє ім’я.
+runāt	verb	A1	communication	говорить	говорити	Vai jūs runājat latviski?	Вы говорите по-латышски?	Ви розмовляєте латиською?
+gulēt	verb	A1	health	спать	спати	Es guļu astoņas stundas.	Я сплю восемь часов.	Я сплю вісім годин.
+telefons	noun	A1	tech	телефон	телефон	Mans telefons ir izlādējies.	У меня сел телефон.	У мене розрядився телефон.
+ārsts	noun	A1	health	врач	лікар	Man jāiet pie ārsta.	Мне нужно к врачу.	Мені треба до лікаря.
+roka	noun	A1	health	рука	рука	Nomazgā rokas!	Помой руки!	Помий руки!
+galva	noun	A1	health	голова	голова	Man sāp galva.	У меня болит голова.	У мене болить голова.
+suns	noun	A1	nature	собака	собака	Mūsu suns mīl sniegu.	Наша собака любит снег.	Наш собака любить сніг.
+kaķis	noun	A1	nature	кот	кіт	Kaķis guļ uz dīvāna.	Кот спит на диване.	Кіт спить на дивані.
+saule	noun	A1	nature	солнце	сонце	Spīd saule.	Светит солнце.	Світить сонце.
+lietus	noun	A1	nature	дождь	дощ	Ārā līst lietus.	На улице идёт дождь.	Надворі йде дощ.
+jūra	noun	A1	nature	море	море	Vasarā mēs braucam uz jūru.	Летом мы ездим на море.	Улітку ми їздимо на море.
+krāsa	noun	A1	basics	цвет, краска	колір, фарба	Kāda ir tava mīļākā krāsa?	Какой твой любимый цвет?	Який твій улюблений колір?
+viens	num	A1	basics	один	один	Man ir viens brālis.	У меня один брат.	У мене один брат.
+divi	num	A1	basics	два	два	Divas kafijas, lūdzu.	Два кофе, пожалуйста.	Дві кави, будь ласка.
+biļete	noun	A1	travel	билет	квиток	Man vajag biļeti uz Liepāju.	Мне нужен билет до Лиепаи.	Мені потрібен квиток до Лієпаї.
+dzīvot	verb	A2	home	жить	жити	Es dzīvoju Rīgā.	Я живу в Риге.	Я живу в Ризі.
+pārvākties	verb	A2	home	переезжать	переїжджати	Mēs pārvācamies uz Jelgavu.	Мы переезжаем в Елгаву.	Ми переїжджаємо до Єлгави.
+īre	noun	A2	home	аренда, квартплата	оренда	Īre jāmaksā līdz pirmajam datumam.	Аренду нужно заплатить до первого числа.	Оренду треба сплатити до першого числа.
+kaimiņš	noun	A2	people	сосед	сусід	Mūsu kaimiņš ir ļoti laipns.	Наш сосед очень любезный.	Наш сусід дуже люб’язний.
+vīrs	noun	A2	people	муж	чоловік	Viņas vīrs ir no Ventspils.	Её муж из Вентспилса.	Її чоловік із Вентспілса.
+sieva	noun	A2	people	жена	дружина	Viņa sieva strādā slimnīcā.	Его жена работает в больнице.	Його дружина працює в лікарні.
+brālis	noun	A2	people	брат	брат	Mans brālis dzīvo Londonā.	Мой брат живёт в Лондоне.	Мій брат живе в Лондоні.
+māsa	noun	A2	people	сестра	сестра	Manai māsai ir divi bērni.	У моей сестры двое детей.	У моєї сестри двоє дітей.
+kolēģis	noun	A2	work	коллега	колега	Mani kolēģi ir draudzīgi.	Мои коллеги дружелюбные.	Мої колеги привітні.
+birojs	noun	A2	work	офис	офіс	Birojs svētdien ir slēgts.	В воскресенье офис закрыт.	У неділю офіс зачинений.
+alga	noun	A2	work	зарплата	зарплата	Viņš grib lielāku algu.	Он хочет зарплату побольше.	Він хоче більшу зарплату.
+sapulce	noun	A2	work	совещание	нарада	Sapulce sākas deviņos.	Совещание начинается в девять.	Нарада починається о дев’ятій.
+aizņemts	adj	A2	work	занятой	зайнятий	Viņš vienmēr ir aizņemts.	Он всегда занят.	Він завжди зайнятий.
+brīvdienas	noun	A2	time	выходные	вихідні	Ko tu dari brīvdienās?	Что ты делаешь в выходные?	Що ти робиш на вихідних?
+agri	adv	A2	time	рано	рано	Es ceļos agri.	Я встаю рано.	Я встаю рано.
+vēlu	adv	A2	time	поздно	пізно	Ir jau vēlu, ejam mājās.	Уже поздно, пойдём домой.	Уже пізно, ходімо додому.
+vienmēr	adv	A2	time	всегда	завжди	Viņa vienmēr smaida.	Она всегда улыбается.	Вона завжди усміхається.
+dažreiz	adv	A2	time	иногда	іноді	Dažreiz es strādāju brīvdienās.	Иногда я работаю в выходные.	Іноді я працюю на вихідних.
+laikapstākļi	noun	A2	nature	погода	погода	Šodien ir lieliski laikapstākļi.	Сегодня отличная погода.	Сьогодні чудова погода.
+sniegs	noun	A2	nature	снег	сніг	Kalnos ir daudz sniega.	В горах много снега.	У горах багато снігу.
+ezers	noun	A2	nature	озеро	озеро	Mēs peldējāmies ezerā.	Мы купались в озере.	Ми купалися в озері.
+mežs	noun	A2	nature	лес	ліс	Brīvdienās mēs ejam uz mežu.	В выходные мы ходим в лес.	На вихідних ми ходимо до лісу.
+slims	adj	A2	health	больной	хворий	Bērns ir slims.	Ребёнок болеет.	Дитина хворіє.
+zāles	noun	A2	health	лекарство	ліки	Lietojiet šīs zāles divreiz dienā.	Принимайте это лекарство два раза в день.	Приймайте ці ліки двічі на день.
+aptieka	noun	A2	health	аптека	аптека	Vai šeit tuvumā ir aptieka?	Здесь поблизости есть аптека?	Тут поблизу є аптека?
+veselīgs	adj	A2	health	здоровый, полезный	здоровий, корисний	Augļi ir veselīgi.	Фрукты полезны.	Фрукти корисні.
+jaka	noun	A2	clothes	куртка	куртка	Paņem jaku, ir auksts.	Возьми куртку, холодно.	Візьми куртку, холодно.
+kurpes	noun	A2	clothes	туфли, обувь	туфлі, взуття	Šīs kurpes ir par mazu.	Эти туфли слишком малы.	Ці туфлі замалі.
+bikses	noun	A2	clothes	брюки	штани	Man vajag jaunas bikses.	Мне нужны новые брюки.	Мені потрібні нові штани.
+cena	noun	A2	shopping	цена	ціна	Cena ir pārāk augsta.	Цена слишком высокая.	Ціна зависока.
+lēts	adj	A2	shopping	дешёвый	дешевий	Šī viesnīca ir lēta.	Эта гостиница дешёвая.	Цей готель дешевий.
+dārgs	adj	A2	shopping	дорогой	дорогий	Rīgā viss ir dārgs.	В Риге всё дорого.	У Ризі все дороге.
+maksāt	verb	A2	shopping	платить	платити	Vai var maksāt ar karti?	Можно заплатить картой?	Можна заплатити карткою?
+lidosta	noun	A2	travel	аэропорт	аеропорт	Mēs braucam uz lidostu.	Мы едем в аэропорт.	Ми їдемо в аеропорт.
+vilciens	noun	A2	travel	поезд	потяг	Vilciens atiet astoņos.	Поезд отправляется в восемь.	Потяг вирушає о восьмій.
+viesnīca	noun	A2	travel	гостиница	готель	Viesnīca ir netālu no jūras.	Гостиница недалеко от моря.	Готель неподалік від моря.
+ceļojums	noun	A2	travel	путешествие, поездка	подорож, поїздка	Kā pagāja ceļojums?	Как прошла поездка?	Як минула поїздка?
+karte	noun	A2	travel	карта	мапа, картка	Vai varat parādīt kartē?	Можете показать на карте?	Можете показати на мапі?
+jautāt	verb	A2	communication	спрашивать	питати	Vai drīkstu jums ko pajautāt?	Можно вас кое о чём спросить?	Можна вас дещо запитати?
+atbildēt	verb	A2	communication	отвечать	відповідати	Lūdzu, atbildiet uz jautājumu.	Пожалуйста, ответьте на вопрос.	Будь ласка, дайте відповідь на запитання.
+ziņa	noun	A2	communication	сообщение, новость	повідомлення, новина	Es tev aizsūtīšu ziņu.	Я пришлю тебе сообщение.	Я надішлю тобі повідомлення.
+zvanīt	verb	A2	communication	звонить	телефонувати	Zvani man vakarā!	Позвони мне вечером!	Зателефонуй мені ввечері!
+mācīties	verb	A2	study	учиться, учить	вчитися, вивчати	Es mācos latviešu valodu.	Я учу латышский язык.	Я вчу латиську мову.
+saprast	verb	A2	study	понимать	розуміти	Es nesaprotu šo vārdu.	Я не понимаю это слово.	Я не розумію цього слова.
+atcerēties	verb	A2	study	помнить, вспоминать	пам’ятати, згадувати	Es atceros viņa seju.	Я помню его лицо.	Я пам’ятаю його обличчя.
+aizmirst	verb	A2	study	забывать	забувати	Neaizmirsti man piezvanīt!	Не забудь мне позвонить!	Не забудь мені зателефонувати!
+eksāmens	noun	A2	study	экзамен	іспит	Eksāmens ir nākamajā pirmdienā.	Экзамен в следующий понедельник.	Іспит наступного понеділка.
+viegls	adj	A2	qualities	лёгкий	легкий	Šis tests ir viegls.	Этот тест лёгкий.	Цей тест легкий.
+grūts	adj	A2	qualities	трудный	складний	Latviešu gramatika ir grūta.	Латышская грамматика трудная.	Латиська граматика складна.
+kluss	adj	A2	qualities	тихий	тихий	Šis ir kluss rajons.	Это тихий район.	Це тихий район.
+dažāds	adj	A2	qualities	разный	різний	Mums ir dažādi viedokļi.	У нас разные мнения.	У нас різні думки.
+bīstams	adj	A2	qualities	опасный	небезпечний	Šis ceļš ir bīstams.	Эта дорога опасная.	Ця дорога небезпечна.
+dusmīgs	adj	A2	feelings	сердитый	сердитий	Kāpēc tu esi dusmīgs?	Почему ты сердишься?	Чому ти сердишся?
+garlaicīgi	adv	A2	feelings	скучно	нудно	Bērniem ir garlaicīgi.	Детям скучно.	Дітям нудно.
+mīļākais	adj	A2	feelings	любимый	улюблений	Pica ir mans mīļākais ēdiens.	Пицца — моя любимая еда.	Піца — моя улюблена їжа.
+hobijs	noun	A2	leisure	хобби	хобі	Mans hobijs ir fotografēšana.	Моё хобби — фотография.	Моє хобі — фотографія.
+peldēt	verb	A2	leisure	плавать	плавати	Vai tu proti peldēt?	Ты умеешь плавать?	Ти вмієш плавати?
+koncerts	noun	A2	leisure	концерт	концерт	Mums ir biļetes uz koncertu.	У нас билеты на концерт.	У нас квитки на концерт.
+gatavot	verb	A2	food	готовить	готувати	Svētdienās ēst gatavo mans vīrs.	По воскресеньям готовит мой муж.	По неділях готує мій чоловік.
+dārzeņi	noun	A2	food	овощи	овочі	Ēd vairāk dārzeņu!	Ешь больше овощей!	Їж більше овочів!
+gaļa	noun	A2	food	мясо	м’ясо	Vai jūs ēdat gaļu?	Вы едите мясо?	Ви їсте м’ясо?
+zivs	noun	A2	food	рыба	риба	Piektdienās mēs ēdam zivi.	По пятницам мы едим рыбу.	По п’ятницях ми їмо рибу.
+varbūt	adv	A2	basics	может быть	можливо	Varbūt rīt.	Может быть, завтра.	Можливо, завтра.
+pietiekami	adv	A2	basics	достаточно	досить	Vai tev ir pietiekami laika?	У тебя достаточно времени?	У тебе досить часу?
+uzticams	adj	B1	qualities	надёжный	надійний	Autobuss nav īpaši uzticams.	Автобус не очень надёжный.	Автобус не дуже надійний.
+pieraksts	noun	B1	health	запись (к врачу)	запис (до лікаря)	Man ir pieraksts pie ārsta četros.	В четыре у меня приём у врача.	О четвертій у мене прийом у лікаря.
+grafiks	noun	B1	work	график	графік	Šonedēļ man ir ļoti saspringts grafiks.	На этой неделе у меня очень плотный график.	Цього тижня в мене дуже щільний графік.
+termiņš	noun	B1	work	срок	термін	Termiņš ir piektdiena.	Срок — пятница.	Термін — п’ятниця.
+pieredze	noun	B1	work	опыт	досвід	Viņai ir liela pieredze.	У неё большой опыт.	У неї великий досвід.
+uzlabot	verb	B1	study	улучшать	покращувати	Es gribu uzlabot savu latviešu valodu.	Я хочу улучшить свой латышский.	Я хочу покращити свою латиську.
+izlemt	verb	B1	actions	решить	вирішити	Mēs izlēmām palikt mājās.	Мы решили остаться дома.	Ми вирішили залишитися вдома.
+paskaidrot	verb	B1	communication	объяснить	пояснити	Vai vari paskaidrot šo noteikumu?	Можешь объяснить это правило?	Можеш пояснити це правило?
+ieteikt	verb	B1	communication	советовать, рекомендовать	радити, рекомендувати	Vai vari ieteikt labu restorānu?	Можешь посоветовать хороший ресторан?	Можеш порадити гарний ресторан?
+piekrist	verb	B1	communication	соглашаться	погоджуватися	Mēs piekrītam.	Мы согласны.	Ми згодні.
+viedoklis	noun	B1	communication	мнение	думка	Kāds ir tavs viedoklis?	Какое у тебя мнение?	Яка в тебе думка?
+padoms	noun	B1	communication	совет	порада	Paldies par padomu!	Спасибо за совет!	Дякую за пораду!
+sūdzēties	verb	B1	communication	жаловаться	скаржитися	Viņš vienmēr sūdzas par laiku.	Он всегда жалуется на погоду.	Він завжди скаржиться на погоду.
+atvainoties	verb	B1	communication	извиняться	вибачатися	Tev vajadzētu atvainoties.	Тебе стоит извиниться.	Тобі варто вибачитися.
+izvairīties	verb	B1	actions	избегать	уникати	Centies izvairīties no cukura.	Старайся избегать сахара.	Намагайся уникати цукру.
+sagatavoties	verb	B1	actions	подготовиться	підготуватися	Man jāsagatavojas sapulcei.	Мне нужно подготовиться к совещанию.	Мені треба підготуватися до наради.
+pamanīt	verb	B1	actions	заметить	помітити	Neviens nepamanīja kļūdu.	Никто не заметил ошибку.	Ніхто не помітив помилки.
+vide	noun	B1	nature	окружающая среда	довкілля	Mums jāsargā vide.	Нам нужно беречь окружающую среду.	Нам треба берегти довкілля.
+apdrošināšana	noun	B1	health	страхование, страховка	страхування	Vai tev ir veselības apdrošināšana?	У тебя есть медицинская страховка?	У тебе є медичне страхування?
+sāpes	noun	B1	health	боль	біль	Man ir muguras sāpes.	У меня болит спина.	У мене болить спина.
+atpūsties	verb	B1	leisure	отдыхать	відпочивати	Vakarā es atpūšos.	Вечером я отдыхаю.	Увечері я відпочиваю.
+klients	noun	B1	shopping	клиент	клієнт	Klientam vienmēr ir taisnība.	Клиент всегда прав.	Клієнт завжди має рацію.
+čeks	noun	B1	shopping	чек	чек	Saglabājiet čeku.	Сохраните чек.	Збережіть чек.
+atlaide	noun	B1	shopping	скидка	знижка	Studentiem ir desmit procentu atlaide.	Студентам скидка десять процентов.	Студентам знижка десять відсотків.
+ērts	adj	B1	qualities	удобный	зручний	Šīs kurpes ir ļoti ērtas.	Эти туфли очень удобные.	Ці туфлі дуже зручні.
+godīgs	adj	B1	feelings	честный	чесний	Viņa ir godīgs cilvēks.	Она честный человек.	Вона чесна людина.
+pacietīgs	adj	B1	feelings	терпеливый	терплячий	Skolotājiem jābūt pacietīgiem.	Учителям нужно быть терпеливыми.	Учителі мають бути терплячими.
+pieklājīgs	adj	B1	feelings	вежливый	ввічливий	Personāls ir ļoti pieklājīgs.	Персонал очень вежливый.	Персонал дуже ввічливий.
+sastrēgums	noun	B1	city	пробка	затор	Šodien ir briesmīgi sastrēgumi.	Сегодня ужасные пробки.	Сьогодні жахливі затори.
+droši vien	adv	B1	basics	наверное	мабуть	Droši vien līs lietus.	Наверное, пойдёт дождь.	Мабуть, піде дощ.
+tomēr	adv	B1	basics	однако, всё же	однак, проте	Plāns ir labs, tomēr dārgs.	План хороший, но всё же дорогой.	План добрий, проте дорогий.
+lai gan	conj	B1	basics	хотя	хоча	Lai gan bija auksts, mēs izgājām ārā.	Хотя было холодно, мы вышли на улицу.	Хоча було холодно, ми вийшли надвір.
+rūpīgs	adj	B2	qualities	тщательный	ретельний	Viņa veica rūpīgu pārbaudi.	Она провела тщательную проверку.	Вона провела ретельну перевірку.
+būtisks	adj	B2	qualities	существенный	суттєвий	Miegs ir būtisks atmiņai.	Сон очень важен для памяти.	Сон дуже важливий для пам’яті.
+acīmredzams	adj	B2	qualities	очевидный	очевидний	Atbilde ir acīmredzama.	Ответ очевиден.	Відповідь очевидна.
+paļauties	verb	B2	qualities	полагаться	покладатися	Uz mani vari paļauties.	На меня можешь положиться.	На мене можеш покластися.
+sasniegt	verb	B2	work	достигать	досягати	Šonedēļ mēs sasniedzām daudz.	За эту неделю мы многого достигли.	Цього тижня ми багато досягли.
+vienoties	verb	B2	work	договориться	домовитися	Viņi vienojās par labāku cenu.	Они договорились о лучшей цене.	Вони домовилися про кращу ціну.
+pieeja	noun	B2	work	подход	підхід	Mums vajag citu pieeju.	Нам нужен другой подход.	Нам потрібен інший підхід.
+efektīvs	adj	B2	work	эффективный	ефективний	Šī metode ir efektīvāka.	Этот метод эффективнее.	Цей метод ефективніший.
+atlikt	verb	B2	time	откладывать, переносить	відкладати, переносити	Sapulce tika atlikta.	Совещание перенесли.	Нараду перенесли.
+galu galā	adv	B2	time	в конце концов	зрештою	Galu galā mēs atradām viesnīcu.	В конце концов мы нашли гостиницу.	Зрештою ми знайшли готель.
+pierādījums	noun	B2	study	доказательство	доказ	Tam nav pierādījumu.	Этому нет доказательств.	Цьому немає доказів.
+pārliecināt	verb	B2	communication	убеждать	переконувати	Viņa mani pārliecināja mēģināt vēlreiz.	Она убедила меня попробовать ещё раз.	Вона переконала мене спробувати ще раз.
+uzsvērt	verb	B2	communication	подчёркивать	наголошувати	Ārsts uzsvēra miega nozīmi.	Врач подчеркнул важность сна.	Лікар наголосив на важливості сну.
+vilcināties	verb	B2	communication	колебаться, медлить	вагатися	Nevilcinieties jautāt!	Не стесняйтесь спрашивать!	Не соромтеся питати!
+atzīt	verb	B2	communication	признавать	визнавати	Viņš atzina savu kļūdu.	Он признал свою ошибку.	Він визнав свою помилку.
+pateicīgs	adj	B2	feelings	благодарный	вдячний	Mēs esam pateicīgi par jūsu palīdzību.	Мы благодарны за вашу помощь.	Ми вдячні за вашу допомогу.
+apņēmīgs	adj	B2	feelings	решительный	рішучий	Viņi ir apņēmīgi uzvarēt.	Они настроены победить.	Вони налаштовані перемогти.
+ilgtspējīgs	adj	B2	nature	устойчивый, экологичный	сталий	Mums vajag ilgtspējīgu enerģiju.	Нам нужна экологичная энергия.	Нам потрібна стала енергетика.
+budžets	noun	B2	shopping	бюджет	бюджет	Mums ir ierobežots budžets.	У нас ограниченный бюджет.	У нас обмежений бюджет.
+īrnieks	noun	B2	home	квартиросъёмщик	орендар	Īrniekam jāmaksā par komunālajiem pakalpojumiem.	Квартиросъёмщик платит за коммунальные услуги.	Орендар платить за комунальні послуги.
+turpretī	conj	B2	basics	тогда как	тоді як	Man patīk pilsēta, turpretī vīrs dod priekšroku laukiem.	Мне нравится город, тогда как муж предпочитает деревню.	Мені подобається місто, тоді як чоловік надає перевагу селу.

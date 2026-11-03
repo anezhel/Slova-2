@@ -1,0 +1,291 @@
+word	ipa	pos	level	topic	ru	uk	example	example_ru	example_uk
+hello	həˈloʊ	int	A1	communication	привет	привіт	Hello, my name is Anna.	Привет, меня зовут Анна.	Привіт, мене звати Анна.
+thanks	θæŋks	int	A1	communication	спасибо	дякую	Thanks for your help.	Спасибо за помощь.	Дякую за допомогу.
+please	pliːz	adv	A1	communication	пожалуйста	будь ласка	Two coffees, please.	Два кофе, пожалуйста.	Дві кави, будь ласка.
+sorry	ˈsɑːri	adj	A1	communication	извините	вибачте	Sorry, I don't understand.	Извините, я не понимаю.	Вибачте, я не розумію.
+yes	jes	adv	A1	basics	да	так	Yes, I know.	Да, я знаю.	Так, я знаю.
+no	noʊ	adv	A1	basics	нет	ні	No, thank you.	Нет, спасибо.	Ні, дякую.
+house	haʊs	noun	A1	home	дом	будинок	Our house is small.	Наш дом маленький.	Наш будинок маленький.
+home	hoʊm	noun	A1	home	дом (жильё)	дім	I'm at home now.	Я сейчас дома.	Я зараз удома.
+apartment	əˈpɑːrtmənt	noun	A1	home	квартира	квартира	We rent an apartment downtown.	Мы снимаем квартиру в центре.	Ми винаймаємо квартиру в центрі.
+room	ruːm	noun	A1	home	комната	кімната	My room is on the second floor.	Моя комната на втором этаже.	Моя кімната на другому поверсі.
+kitchen	ˈkɪtʃən	noun	A1	home	кухня	кухня	The kitchen is clean.	Кухня чистая.	Кухня чиста.
+bed	bed	noun	A1	home	кровать	ліжко	I go to bed at eleven.	Я ложусь спать в одиннадцать.	Я лягаю спати об одинадцятій.
+door	dɔːr	noun	A1	home	дверь	двері	Please close the door.	Закрой, пожалуйста, дверь.	Зачини, будь ласка, двері.
+window	ˈwɪndoʊ	noun	A1	home	окно	вікно	Open the window, please.	Открой окно, пожалуйста.	Відчини вікно, будь ласка.
+table	ˈteɪbəl	noun	A1	home	стол	стіл	The keys are on the table.	Ключи на столе.	Ключі на столі.
+chair	tʃer	noun	A1	home	стул	стілець	This chair is very comfortable.	Этот стул очень удобный.	Цей стілець дуже зручний.
+family	ˈfæməli	noun	A1	people	семья	родина	I have a big family.	У меня большая семья.	У мене велика родина.
+mother	ˈmʌðər	noun	A1	people	мама	мама	My mother is a doctor.	Моя мама — врач.	Моя мама — лікарка.
+father	ˈfɑːðər	noun	A1	people	папа	тато	My father works at a bank.	Мой папа работает в банке.	Мій тато працює в банку.
+friend	frend	noun	A1	people	друг	друг	She is my best friend.	Она моя лучшая подруга.	Вона моя найкраща подруга.
+child	tʃaɪld	noun	A1	people	ребёнок	дитина	The child is sleeping.	Ребёнок спит.	Дитина спить.
+man	mæn	noun	A1	people	мужчина	чоловік	The man in the blue shirt is my boss.	Мужчина в синей рубашке — мой начальник.	Чоловік у синій сорочці — мій начальник.
+woman	ˈwʊmən	noun	A1	people	женщина	жінка	That woman is a teacher.	Эта женщина — учительница.	Ця жінка — вчителька.
+name	neɪm	noun	A1	people	имя	ім’я	What's your name?	Как тебя зовут?	Як тебе звати?
+water	ˈwɔːtər	noun	A1	food	вода	вода	Can I have some water?	Можно мне воды?	Можна мені води?
+coffee	ˈkɔːfi	noun	A1	food	кофе	кава	I drink coffee every morning.	Я пью кофе каждое утро.	Я п’ю каву щоранку.
+tea	tiː	noun	A1	food	чай	чай	Would you like some tea?	Хочешь чаю?	Хочеш чаю?
+bread	bred	noun	A1	food	хлеб	хліб	We need bread and milk.	Нам нужны хлеб и молоко.	Нам потрібні хліб і молоко.
+milk	mɪlk	noun	A1	food	молоко	молоко	The milk is in the fridge.	Молоко в холодильнике.	Молоко в холодильнику.
+apple	ˈæpəl	noun	A1	food	яблоко	яблуко	I eat an apple every day.	Я каждый день ем яблоко.	Я щодня їм яблуко.
+egg	eɡ	noun	A1	food	яйцо	яйце	I have two eggs for breakfast.	На завтрак я ем два яйца.	На сніданок я їм два яйця.
+breakfast	ˈbrekfəst	noun	A1	food	завтрак	сніданок	Breakfast is ready!	Завтрак готов!	Сніданок готовий!
+lunch	lʌntʃ	noun	A1	food	обед	обід	Let's have lunch together.	Давай пообедаем вместе.	Давай пообідаємо разом.
+dinner	ˈdɪnər	noun	A1	food	ужин	вечеря	We have dinner at seven.	Мы ужинаем в семь.	Ми вечеряємо о сьомій.
+eat	iːt	verb	A1	food	есть	їсти	I don't eat meat.	Я не ем мясо.	Я не їм м’яса.
+drink	drɪŋk	verb	A1	food	пить	пити	Drink more water.	Пей больше воды.	Пий більше води.
+city	ˈsɪti	noun	A1	city	город	місто	I live in a big city.	Я живу в большом городе.	Я живу у великому місті.
+street	striːt	noun	A1	city	улица	вулиця	Our street is very quiet.	Наша улица очень тихая.	Наша вулиця дуже тиха.
+store	stɔːr	noun	A1	city	магазин	магазин	The store opens at nine.	Магазин открывается в девять.	Магазин відчиняється о дев’ятій.
+bus	bʌs	noun	A1	city	автобус	автобус	I take the bus to work.	Я езжу на работу на автобусе.	Я їжджу на роботу автобусом.
+car	kɑːr	noun	A1	city	машина	машина	Her car is red.	Её машина красная.	Її машина червона.
+school	skuːl	noun	A1	study	школа	школа	My son goes to school.	Мой сын ходит в школу.	Мій син ходить до школи.
+book	bʊk	noun	A1	study	книга	книжка	This book is interesting.	Эта книга интересная.	Ця книжка цікава.
+teacher	ˈtiːtʃər	noun	A1	study	учитель	вчитель	Our teacher is from Chicago.	Наш учитель из Чикаго.	Наш учитель із Чикаго.
+word	wɜːrd	noun	A1	study	слово	слово	I learn five new words a day.	Я учу пять новых слов в день.	Я вчу п’ять нових слів на день.
+work	wɜːrk	verb	A1	work	работать	працювати	I work from home.	Я работаю из дома.	Я працюю з дому.
+job	dʒɑːb	noun	A1	work	работа	робота	She has a new job.	У неё новая работа.	У неї нова робота.
+office	ˈɔːfɪs	noun	A1	work	офис	офіс	The office is closed on Sunday.	В воскресенье офис закрыт.	У неділю офіс зачинений.
+money	ˈmʌni	noun	A1	shopping	деньги	гроші	I don't have much money.	У меня мало денег.	У мене мало грошей.
+buy	baɪ	verb	A1	shopping	покупать	купувати	I want to buy a new phone.	Я хочу купить новый телефон.	Я хочу купити новий телефон.
+day	deɪ	noun	A1	time	день	день	Have a nice day!	Хорошего дня!	Гарного дня!
+week	wiːk	noun	A1	time	неделя	тиждень	I go to the gym three times a week.	Я хожу в спортзал три раза в неделю.	Я ходжу в спортзал тричі на тиждень.
+year	jɪr	noun	A1	time	год	рік	Happy New Year!	С Новым годом!	З Новим роком!
+today	təˈdeɪ	adv	A1	time	сегодня	сьогодні	It's cold today.	Сегодня холодно.	Сьогодні холодно.
+tomorrow	təˈmɑːroʊ	adv	A1	time	завтра	завтра	See you tomorrow!	До завтра!	До завтра!
+morning	ˈmɔːrnɪŋ	noun	A1	time	утро	ранок	Good morning!	Доброе утро!	Доброго ранку!
+night	naɪt	noun	A1	time	ночь	ніч	Good night!	Спокойной ночи!	На добраніч!
+time	taɪm	noun	A1	time	время	час	What time is it?	Который час?	Котра година?
+now	naʊ	adv	A1	time	сейчас	зараз	I can't talk now.	Я сейчас не могу говорить.	Я зараз не можу говорити.
+good	ɡʊd	adj	A1	qualities	хороший	добрий, гарний	It's a good idea.	Это хорошая идея.	Це гарна ідея.
+bad	bæd	adj	A1	qualities	плохой	поганий	The weather is bad today.	Сегодня плохая погода.	Сьогодні погана погода.
+big	bɪɡ	adj	A1	qualities	большой	великий	They have a big dog.	У них большая собака.	У них великий собака.
+small	smɔːl	adj	A1	qualities	маленький	маленький	I live in a small town.	Я живу в маленьком городе.	Я живу в маленькому містечку.
+new	nuː	adj	A1	qualities	новый	новий	Is this a new bag?	Это новая сумка?	Це нова сумка?
+old	oʊld	adj	A1	qualities	старый	старий	My car is very old.	Моя машина очень старая.	Моя машина дуже стара.
+hot	hɑːt	adj	A1	nature	горячий, жаркий	гарячий, спекотний	The soup is too hot.	Суп слишком горячий.	Суп занадто гарячий.
+cold	koʊld	adj	A1	nature	холодный	холодний	The water is cold.	Вода холодная.	Вода холодна.
+happy	ˈhæpi	adj	A1	feelings	счастливый	щасливий	She looks happy.	Она выглядит счастливой.	Вона виглядає щасливою.
+tired	ˈtaɪərd	adj	A1	feelings	уставший	втомлений	He's tired after work.	Он устал после работы.	Він утомився після роботи.
+go	ɡoʊ	verb	A1	actions	идти, ехать	іти, їхати	Let's go home.	Пойдём домой.	Ходімо додому.
+come	kʌm	verb	A1	actions	приходить	приходити	Come here, please.	Иди сюда, пожалуйста.	Іди сюди, будь ласка.
+see	siː	verb	A1	actions	видеть	бачити	I can see the ocean from here.	Отсюда видно океан.	Звідси видно океан.
+know	noʊ	verb	A1	actions	знать	знати	I don't know the answer.	Я не знаю ответа.	Я не знаю відповіді.
+want	wɑːnt	verb	A1	actions	хотеть	хотіти	I want to sleep.	Я хочу спать.	Я хочу спати.
+like	laɪk	verb	A1	feelings	нравиться	подобатися	I like this song.	Мне нравится эта песня.	Мені подобається ця пісня.
+love	lʌv	verb	A1	feelings	любить	любити	I love my city.	Я люблю свой город.	Я люблю своє місто.
+have	hæv	verb	A1	actions	иметь	мати	I have two sisters.	У меня две сестры.	У мене дві сестри.
+make	meɪk	verb	A1	actions	делать, готовить	робити, готувати	Let's make dinner.	Давай приготовим ужин.	Давай приготуємо вечерю.
+read	riːd	verb	A1	study	читать	читати	I read before bed.	Я читаю перед сном.	Я читаю перед сном.
+write	raɪt	verb	A1	study	писать	писати	Write your name here.	Напишите здесь своё имя.	Напишіть тут своє ім’я.
+speak	spiːk	verb	A1	communication	говорить	говорити	Do you speak English?	Вы говорите по-английски?	Ви розмовляєте англійською?
+listen	ˈlɪsən	verb	A1	communication	слушать	слухати	Listen to me, please.	Послушай меня, пожалуйста.	Послухай мене, будь ласка.
+sleep	sliːp	verb	A1	health	спать	спати	I sleep eight hours a night.	Я сплю восемь часов в сутки.	Я сплю вісім годин на добу.
+walk	wɔːk	verb	A1	actions	гулять, идти пешком	гуляти, іти пішки	We walk in the park every evening.	Мы гуляем в парке каждый вечер.	Ми щовечора гуляємо в парку.
+phone	foʊn	noun	A1	tech	телефон	телефон	My phone is dead.	У меня сел телефон.	У мене розрядився телефон.
+computer	kəmˈpjuːtər	noun	A1	tech	компьютер	комп’ютер	I work on my computer all day.	Я весь день работаю за компьютером.	Я цілий день працюю за комп’ютером.
+doctor	ˈdɑːktər	noun	A1	health	врач	лікар	I need to see a doctor.	Мне нужно к врачу.	Мені треба до лікаря.
+hand	hænd	noun	A1	health	рука (кисть)	рука	Wash your hands.	Помой руки.	Помий руки.
+head	hed	noun	A1	health	голова	голова	My head hurts.	У меня болит голова.	У мене болить голова.
+shirt	ʃɜːrt	noun	A1	clothes	рубашка	сорочка	He's wearing a white shirt.	На нём белая рубашка.	На ньому біла сорочка.
+shoes	ʃuːz	noun	A1	clothes	туфли, обувь	туфлі, взуття	These shoes are too small.	Эти туфли слишком маленькие.	Ці туфлі замалі.
+pants	pænts	noun	A1	clothes	брюки	штани	I need new pants.	Мне нужны новые брюки.	Мені потрібні нові штани.
+dog	dɔːɡ	noun	A1	nature	собака	собака	Our dog loves the snow.	Наша собака любит снег.	Наш собака любить сніг.
+cat	kæt	noun	A1	nature	кошка	кіт	The cat is sleeping on the sofa.	Кошка спит на диване.	Кіт спить на дивані.
+sun	sʌn	noun	A1	nature	солнце	сонце	The sun is shining.	Светит солнце.	Світить сонце.
+rain	reɪn	noun	A1	nature	дождь	дощ	I love the sound of rain.	Я люблю звук дождя.	Я люблю звук дощу.
+color	ˈkʌlər	noun	A1	basics	цвет	колір	What's your favorite color?	Какой твой любимый цвет?	Який твій улюблений колір?
+number	ˈnʌmbər	noun	A1	basics	номер, число	номер, число	What's your phone number?	Какой у тебя номер телефона?	Який у тебе номер телефону?
+vacation	veɪˈkeɪʃən	noun	A1	travel	отпуск	відпустка	We go on vacation in July.	Мы едем в отпуск в июле.	Ми їдемо у відпустку в липні.
+ticket	ˈtɪkɪt	noun	A1	travel	билет	квиток	I need a ticket to New York.	Мне нужен билет в Нью-Йорк.	Мені потрібен квиток до Нью-Йорка.
+movie	ˈmuːvi	noun	A1	leisure	фильм	фільм	Let's watch a movie tonight.	Давай посмотрим фильм вечером.	Давай подивимося фільм увечері.
+downtown	ˌdaʊnˈtaʊn	noun	A2	city	центр города	центр міста	Let's meet downtown.	Давай встретимся в центре.	Зустріньмося в центрі.
+subway	ˈsʌbweɪ	noun	A2	city	метро	метро	The subway is faster than the bus.	На метро быстрее, чем на автобусе.	Метро швидше за автобус.
+sidewalk	ˈsaɪdwɔːk	noun	A2	city	тротуар	тротуар	Kids are playing on the sidewalk.	Дети играют на тротуаре.	Діти граються на тротуарі.
+neighborhood	ˈneɪbərhʊd	noun	A2	city	район	район	I like our neighborhood.	Мне нравится наш район.	Мені подобається наш район.
+mall	mɔːl	noun	A2	shopping	торговый центр	торговий центр	Let's go to the mall.	Пойдём в торговый центр.	Ходімо до торгового центру.
+elevator	ˈelɪveɪtər	noun	A2	home	лифт	ліфт	The elevator is broken again.	Лифт опять сломан.	Ліфт знову зламаний.
+trash	træʃ	noun	A2	home	мусор	сміття	Can you take out the trash?	Можешь вынести мусор?	Можеш винести сміття?
+yard	jɑːrd	noun	A2	home	двор (у дома)	подвір’я	The kids play in the yard.	Дети играют во дворе.	Діти граються на подвір’ї.
+move	muːv	verb	A2	home	переезжать	переїжджати	We're moving to Boston.	Мы переезжаем в Бостон.	Ми переїжджаємо до Бостона.
+rent	rent	noun	A2	home	арендная плата	орендна плата	The rent is due on the first.	Арендную плату вносят до первого числа.	Орендну плату вносять до першого числа.
+cookie	ˈkʊki	noun	A2	food	печенье	печиво	These cookies are delicious.	Это печенье очень вкусное.	Це печиво дуже смачне.
+candy	ˈkændi	noun	A2	food	конфеты	цукерки	Don't eat too much candy.	Не ешь слишком много конфет.	Не їж забагато цукерок.
+check	tʃek	noun	A2	food	счёт (в ресторане)	рахунок	Can we have the check, please?	Можно счёт, пожалуйста?	Можна рахунок, будь ласка?
+grocery store	ˈɡroʊsəri stɔːr	noun	A2	shopping	продуктовый магазин	продуктовий магазин	I stop at the grocery store after work.	После работы я захожу в продуктовый.	Після роботи я заходжу в продуктовий.
+cook	kʊk	verb	A2	food	готовить	готувати	My husband cooks on Sundays.	По воскресеньям готовит мой муж.	По неділях готує мій чоловік.
+recipe	ˈresəpi	noun	A2	food	рецепт	рецепт	Can you send me the recipe?	Пришлёшь мне рецепт?	Надішлеш мені рецепт?
+vegetables	ˈvedʒtəbəlz	noun	A2	food	овощи	овочі	Eat more vegetables.	Ешь больше овощей.	Їж більше овочів.
+gas	ɡæs	noun	A2	travel	бензин	бензин	We need to get gas.	Нам нужно заправиться.	Нам треба заправитися.
+fall	fɔːl	noun	A2	time	осень	осінь	Fall is my favorite season.	Осень — моё любимое время года.	Осінь — моя улюблена пора року.
+weekend	ˈwiːkend	noun	A2	time	выходные	вихідні	What are you doing this weekend?	Что ты делаешь в эти выходные?	Що ти робиш цими вихідними?
+early	ˈɜːrli	adv	A2	time	рано	рано	I get up early.	Я рано встаю.	Я рано встаю.
+late	leɪt	adv	A2	time	поздно	пізно	It's late, let's go home.	Уже поздно, пойдём домой.	Уже пізно, ходімо додому.
+always	ˈɔːlweɪz	adv	A2	time	всегда	завжди	She always smiles.	Она всегда улыбается.	Вона завжди усміхається.
+sometimes	ˈsʌmtaɪmz	adv	A2	time	иногда	іноді	Sometimes I work on weekends.	Иногда я работаю по выходным.	Іноді я працюю на вихідних.
+line	laɪn	noun	A2	shopping	очередь	черга	There's a long line at the bank.	В банке длинная очередь.	У банку довга черга.
+borrow	ˈbɑːroʊ	verb	A2	shopping	брать взаймы	позичати (у когось)	Can I borrow your pen?	Можно взять твою ручку?	Можна позичити твою ручку?
+price	praɪs	noun	A2	shopping	цена	ціна	The price is too high.	Цена слишком высокая.	Ціна зависока.
+cheap	tʃiːp	adj	A2	shopping	дешёвый	дешевий	This hotel is cheap.	Этот отель дешёвый.	Цей готель дешевий.
+expensive	ɪkˈspensɪv	adj	A2	shopping	дорогой	дорогий	New York is expensive.	Нью-Йорк — дорогой город.	Нью-Йорк — дороге місто.
+pay	peɪ	verb	A2	shopping	платить	платити	Can I pay by card?	Можно оплатить картой?	Можна оплатити карткою?
+meeting	ˈmiːtɪŋ	noun	A2	work	встреча, совещание	зустріч, нарада	The meeting starts at nine.	Совещание начинается в девять.	Нарада починається о дев’ятій.
+boss	bɔːs	noun	A2	work	начальник	начальник	My boss is very nice.	Мой начальник очень приятный.	Мій начальник дуже приємний.
+salary	ˈsæləri	noun	A2	work	зарплата	зарплата	He wants a higher salary.	Он хочет зарплату побольше.	Він хоче більшу зарплату.
+interview	ˈɪntərvjuː	noun	A2	work	собеседование	співбесіда	I have a job interview tomorrow.	Завтра у меня собеседование.	Завтра в мене співбесіда.
+busy	ˈbɪzi	adj	A2	work	занятой	зайнятий	He's always busy.	Он всегда занят.	Він завжди зайнятий.
+weather	ˈweðər	noun	A2	nature	погода	погода	The weather is great today.	Сегодня отличная погода.	Сьогодні чудова погода.
+snow	snoʊ	noun	A2	nature	снег	сніг	There's a lot of snow in the mountains.	В горах много снега.	У горах багато снігу.
+ocean	ˈoʊʃən	noun	A2	nature	океан	океан	We swam in the ocean.	Мы купались в океане.	Ми купалися в океані.
+mountain	ˈmaʊntən	noun	A2	nature	гора	гора	They live near the mountains.	Они живут возле гор.	Вони живуть біля гір.
+healthy	ˈhelθi	adj	A2	health	здоровый, полезный	здоровий, корисний	Fruit is healthy.	Фрукты полезны.	Фрукти корисні.
+sick	sɪk	adj	A2	health	больной	хворий	The baby is sick today.	Малыш сегодня болеет.	Малюк сьогодні хворіє.
+medicine	ˈmedɪsən	noun	A2	health	лекарство	ліки	Take this medicine twice a day.	Принимайте это лекарство два раза в день.	Приймайте ці ліки двічі на день.
+pharmacy	ˈfɑːrməsi	noun	A2	health	аптека	аптека	Is there a pharmacy near here?	Здесь поблизости есть аптека?	Тут поблизу є аптека?
+jacket	ˈdʒækɪt	noun	A2	clothes	куртка	куртка	Take a jacket, it's cold.	Возьми куртку, холодно.	Візьми куртку, холодно.
+sneakers	ˈsniːkərz	noun	A2	clothes	кроссовки	кросівки	I run in old sneakers.	Я бегаю в старых кроссовках.	Я бігаю в старих кросівках.
+sweater	ˈswetər	noun	A2	clothes	свитер	светр	This sweater is warm.	Этот свитер тёплый.	Цей светр теплий.
+airport	ˈerpɔːrt	noun	A2	travel	аэропорт	аеропорт	We're driving to the airport.	Мы едем в аэропорт.	Ми їдемо в аеропорт.
+flight	flaɪt	noun	A2	travel	рейс, полёт	рейс, політ	Our flight is at six.	Наш рейс в шесть.	Наш рейс о шостій.
+passport	ˈpæspɔːrt	noun	A2	travel	паспорт	паспорт	Don't forget your passport.	Не забудь паспорт.	Не забудь паспорт.
+hotel	hoʊˈtel	noun	A2	travel	гостиница	готель	The hotel is near the beach.	Гостиница рядом с пляжем.	Готель біля пляжу.
+map	mæp	noun	A2	travel	карта	мапа	Can you show me on the map?	Можете показать на карте?	Можете показати на мапі?
+trip	trɪp	noun	A2	travel	поездка	поїздка	How was your trip?	Как прошла поездка?	Як минула поїздка?
+invite	ɪnˈvaɪt	verb	A2	communication	приглашать	запрошувати	Let's invite them to dinner.	Давай пригласим их на ужин.	Давай запросимо їх на вечерю.
+answer	ˈænsər	verb	A2	communication	отвечать	відповідати	Please answer the question.	Ответьте, пожалуйста, на вопрос.	Дайте, будь ласка, відповідь на запитання.
+ask	æsk	verb	A2	communication	спрашивать, просить	питати, просити	Can I ask you something?	Можно тебя кое о чём спросить?	Можна тебе дещо запитати?
+message	ˈmesɪdʒ	noun	A2	communication	сообщение	повідомлення	I'll send you a message.	Я пришлю тебе сообщение.	Я надішлю тобі повідомлення.
+email	ˈiːmeɪl	noun	A2	tech	электронное письмо	електронний лист	Check your email.	Проверь почту.	Перевір пошту.
+password	ˈpæswɜːrd	noun	A2	tech	пароль	пароль	This password is too short.	Этот пароль слишком короткий.	Цей пароль закороткий.
+download	ˈdaʊnloʊd	verb	A2	tech	скачивать	завантажувати	You can download the app for free.	Приложение можно скачать бесплатно.	Застосунок можна завантажити безкоштовно.
+learn	lɜːrn	verb	A2	study	учить, изучать	вивчати	I want to learn Spanish.	Я хочу выучить испанский.	Я хочу вивчити іспанську.
+homework	ˈhoʊmwɜːrk	noun	A2	study	домашнее задание	домашнє завдання	Do your homework first.	Сначала сделай домашнее задание.	Спершу зроби домашнє завдання.
+exam	ɪɡˈzæm	noun	A2	study	экзамен	іспит	The exam is next Monday.	Экзамен в следующий понедельник.	Іспит наступного понеділка.
+understand	ˌʌndərˈstænd	verb	A2	study	понимать	розуміти	I don't understand this word.	Я не понимаю это слово.	Я не розумію цього слова.
+remember	rɪˈmembər	verb	A2	study	помнить	пам’ятати	I remember his face.	Я помню его лицо.	Я пам’ятаю його обличчя.
+forget	fərˈɡet	verb	A2	study	забывать	забувати	Don't forget to call me.	Не забудь мне позвонить.	Не забудь мені зателефонувати.
+easy	ˈiːzi	adj	A2	qualities	лёгкий	легкий	This test is easy.	Этот тест лёгкий.	Цей тест легкий.
+difficult	ˈdɪfɪkəlt	adj	A2	qualities	трудный	складний	Latvian grammar is difficult.	Латышская грамматика трудная.	Латиська граматика складна.
+quiet	ˈkwaɪət	adj	A2	qualities	тихий	тихий	It's a quiet neighborhood.	Это тихий район.	Це тихий район.
+different	ˈdɪfərənt	adj	A2	qualities	разный, другой	різний, інший	We have different opinions.	У нас разные мнения.	У нас різні думки.
+dangerous	ˈdeɪndʒərəs	adj	A2	qualities	опасный	небезпечний	This road is dangerous.	Эта дорога опасная.	Ця дорога небезпечна.
+bored	bɔːrd	adj	A2	feelings	скучающий	знуджений	The kids are bored.	Детям скучно.	Дітям нудно.
+angry	ˈæŋɡri	adj	A2	feelings	сердитый	сердитий	Why are you angry?	Почему ты сердишься?	Чому ти сердишся?
+worried	ˈwɜːrid	adj	A2	feelings	обеспокоенный	стурбований	She looks worried.	Она выглядит обеспокоенной.	Вона виглядає стурбованою.
+favorite	ˈfeɪvərɪt	adj	A2	feelings	любимый	улюблений	Pizza is my favorite food.	Пицца — моя любимая еда.	Піца — моя улюблена їжа.
+hobby	ˈhɑːbi	noun	A2	leisure	хобби	хобі	My hobby is photography.	Моё хобби — фотография.	Моє хобі — фотографія.
+soccer	ˈsɑːkər	noun	A2	leisure	футбол	футбол	He plays soccer on Saturdays.	По субботам он играет в футбол.	По суботах він грає у футбол.
+concert	ˈkɑːnsərt	noun	A2	leisure	концерт	концерт	We have tickets to the concert.	У нас билеты на концерт.	У нас квитки на концерт.
+swim	swɪm	verb	A2	leisure	плавать	плавати	Can you swim?	Ты умеешь плавать?	Ти вмієш плавати?
+neighbor	ˈneɪbər	noun	A2	people	сосед	сусід	Our neighbor has a big dog.	У нашего соседа большая собака.	У нашого сусіда великий собака.
+husband	ˈhʌzbənd	noun	A2	people	муж	чоловік	Her husband is from Texas.	Её муж из Техаса.	Її чоловік із Техасу.
+wife	waɪf	noun	A2	people	жена	дружина	His wife works at the hospital.	Его жена работает в больнице.	Його дружина працює в лікарні.
+kid	kɪd	noun	A2	people	ребёнок	дитина	They have two kids.	У них двое детей.	У них двоє дітей.
+maybe	ˈmeɪbi	adv	A2	basics	может быть	можливо	Maybe tomorrow.	Может, завтра.	Можливо, завтра.
+enough	ɪˈnʌf	adv	A2	basics	достаточно	досить	Is this enough?	Этого достаточно?	Цього досить?
+reliable	rɪˈlaɪəbəl	adj	B1	qualities	надёжный	надійний	The bus isn't very reliable.	Автобус не очень надёжный.	Автобус не дуже надійний.
+appointment	əˈpɔɪntmənt	noun	B1	health	приём (у врача), встреча	прийом (у лікаря), зустріч	The doctor's appointment is at four.	Приём у врача в четыре.	Прийом у лікаря о четвертій.
+schedule	ˈskedʒuːl	noun	B1	work	расписание, график	розклад, графік	My schedule is very busy this week.	На этой неделе у меня очень плотный график.	Цього тижня в мене дуже щільний графік.
+commute	kəˈmjuːt	noun	B1	work	дорога на работу	дорога на роботу	My commute takes an hour.	Дорога на работу занимает час.	Дорога на роботу займає годину.
+deadline	ˈdedlaɪn	noun	B1	work	срок сдачи, дедлайн	кінцевий термін, дедлайн	The deadline is Friday.	Срок сдачи — пятница.	Кінцевий термін — п’ятниця.
+coworker	ˈkoʊwɜːrkər	noun	B1	work	коллега	колега	My coworkers are very friendly.	Мои коллеги очень дружелюбные.	Мої колеги дуже привітні.
+experience	ɪkˈspɪriəns	noun	B1	work	опыт	досвід	She has a lot of experience.	У неё большой опыт.	У неї великий досвід.
+resume	ˈrezəmeɪ	noun	B1	work	резюме	резюме	Send me your resume.	Пришлите мне своё резюме.	Надішліть мені своє резюме.
+apply	əˈplaɪ	verb	B1	work	подавать заявку	подавати заявку	I want to apply for this job.	Я хочу откликнуться на эту вакансию.	Я хочу подати заявку на цю вакансію.
+hire	ˈhaɪər	verb	B1	work	нанимать	наймати	The company is hiring new staff.	Компания нанимает новых сотрудников.	Компанія наймає нових працівників.
+raise	reɪz	noun	B1	work	повышение зарплаты	підвищення зарплати	She asked her boss for a raise.	Она попросила у начальника повышения зарплаты.	Вона попросила в начальника підвищення зарплати.
+career	kəˈrɪr	noun	B1	work	карьера	кар’єра	She wants a career in medicine.	Она хочет сделать карьеру в медицине.	Вона хоче зробити кар’єру в медицині.
+manage	ˈmænɪdʒ	verb	B1	work	руководить, справляться	керувати, впоратися	She manages a team of ten people.	Она руководит командой из десяти человек.	Вона керує командою з десяти людей.
+improve	ɪmˈpruːv	verb	B1	study	улучшать	покращувати	I want to improve my English.	Я хочу улучшить свой английский.	Я хочу покращити свою англійську.
+figure out	ˌfɪɡjər ˈaʊt	phr	B1	study	разобраться	розібратися	I can't figure out this app.	Не могу разобраться в этом приложении.	Не можу розібратися в цьому застосунку.
+decide	dɪˈsaɪd	verb	B1	actions	решать	вирішувати	We decided to stay home.	Мы решили остаться дома.	Ми вирішили залишитися вдома.
+prepare	prɪˈper	verb	B1	actions	готовить(ся)	готувати(ся)	I need to prepare for the meeting.	Мне нужно подготовиться к совещанию.	Мені треба підготуватися до наради.
+solve	sɑːlv	verb	B1	actions	решать (проблему)	розв’язувати	We solved the problem together.	Мы решили проблему вместе.	Ми розв’язали проблему разом.
+avoid	əˈvɔɪd	verb	B1	actions	избегать	уникати	Try to avoid sugar.	Старайся избегать сахара.	Намагайся уникати цукру.
+notice	ˈnoʊtɪs	verb	B1	actions	замечать	помічати	Nobody noticed the mistake.	Никто не заметил ошибку.	Ніхто не помітив помилки.
+realize	ˈriːəlaɪz	verb	B1	actions	осознавать, понимать	усвідомлювати, розуміти	Do you realize what time it is?	Ты понимаешь, который час?	Ти розумієш, котра година?
+explain	ɪkˈspleɪn	verb	B1	communication	объяснять	пояснювати	Can you explain this rule?	Можешь объяснить это правило?	Можеш пояснити це правило?
+describe	dɪˈskraɪb	verb	B1	communication	описывать	описувати	Describe your perfect day.	Опиши свой идеальный день.	Опиши свій ідеальний день.
+suggest	səɡˈdʒest	verb	B1	communication	предлагать	пропонувати	I suggest we take a taxi.	Предлагаю взять такси.	Пропоную взяти таксі.
+agree	əˈɡriː	verb	B1	communication	соглашаться	погоджуватися	We agree on everything.	Мы во всём согласны.	Ми в усьому згодні.
+opinion	əˈpɪnjən	noun	B1	communication	мнение	думка	In my opinion, it's a great idea.	По-моему, это отличная идея.	На мою думку, це чудова ідея.
+advice	ədˈvaɪs	noun	B1	communication	совет	порада	Thanks for the advice.	Спасибо за совет.	Дякую за пораду.
+complain	kəmˈpleɪn	verb	B1	communication	жаловаться	скаржитися	He always complains about the weather.	Он всегда жалуется на погоду.	Він завжди скаржиться на погоду.
+apologize	əˈpɑːlədʒaɪz	verb	B1	communication	извиняться	вибачатися	You should apologize to her.	Тебе стоит извиниться перед ней.	Тобі варто вибачитися перед нею.
+recommend	ˌrekəˈmend	verb	B1	communication	рекомендовать, советовать	рекомендувати, радити	Can you recommend a good restaurant?	Можешь посоветовать хороший ресторан?	Можеш порадити гарний ресторан?
+guess	ɡes	verb	B1	communication	угадывать, догадываться	вгадувати, здогадуватися	Guess who called me today!	Угадай, кто мне сегодня звонил!	Вгадай, хто мені сьогодні телефонував!
+prefer	prɪˈfɜːr	verb	B1	feelings	предпочитать	віддавати перевагу	I prefer tea to coffee.	Я предпочитаю чай кофе.	Я віддаю перевагу чаю, а не каві.
+look forward to	lʊk ˈfɔːrwərd tə	phr	B1	feelings	с нетерпением ждать	з нетерпінням чекати	I'm looking forward to the weekend.	Жду не дождусь выходных.	Не можу дочекатися вихідних.
+confident	ˈkɑːnfɪdənt	adj	B1	feelings	уверенный	упевнений	He sounds confident.	Он говорит уверенно.	Він говорить упевнено.
+honest	ˈɑːnɪst	adj	B1	feelings	честный	чесний	She's an honest person.	Она честный человек.	Вона чесна людина.
+patient	ˈpeɪʃənt	adj	B1	feelings	терпеливый	терплячий	Teachers need to be patient.	Учителям нужно быть терпеливыми.	Учителі мають бути терплячими.
+polite	pəˈlaɪt	adj	B1	feelings	вежливый	ввічливий	The staff is very polite.	Персонал очень вежливый.	Персонал дуже ввічливий.
+generous	ˈdʒenərəs	adj	B1	feelings	щедрый	щедрий	Thank you, that's very generous.	Спасибо, это очень щедро.	Дякую, це дуже щедро.
+rude	ruːd	adj	B1	feelings	грубый	грубий	Don't be rude to the waiter.	Не груби официанту.	Не груби офіціантові.
+environment	ɪnˈvaɪrənmənt	noun	B1	nature	окружающая среда	довкілля	We need to protect the environment.	Нам нужно защищать окружающую среду.	Нам треба захищати довкілля.
+recycle	riːˈsaɪkəl	verb	B1	nature	перерабатывать	переробляти	We recycle paper and plastic.	Мы сдаём бумагу и пластик на переработку.	Ми здаємо папір і пластик на переробку.
+insurance	ɪnˈʃʊrəns	noun	B1	health	страховка	страховка	Do you have health insurance?	У тебя есть медицинская страховка?	У тебе є медична страховка?
+emergency	ɪˈmɜːrdʒənsi	noun	B1	health	экстренный случай	надзвичайна ситуація	In an emergency, call 911.	В экстренном случае звоните 911.	У надзвичайній ситуації телефонуйте 911.
+pain	peɪn	noun	B1	health	боль	біль	I have a pain in my back.	У меня болит спина.	У мене болить спина.
+relax	rɪˈlæks	verb	B1	leisure	расслабляться	розслаблятися	I relax by listening to music.	Я расслабляюсь под музыку.	Я розслабляюся під музику.
+customer	ˈkʌstəmər	noun	B1	shopping	клиент, покупатель	клієнт, покупець	The customer is always right.	Клиент всегда прав.	Клієнт завжди має рацію.
+receipt	rɪˈsiːt	noun	B1	shopping	чек	чек	Keep the receipt.	Сохраните чек.	Збережіть чек.
+refund	ˈriːfʌnd	noun	B1	shopping	возврат денег	повернення грошей	Can I get a refund?	Можно вернуть деньги?	Можна повернути гроші?
+discount	ˈdɪskaʊnt	noun	B1	shopping	скидка	знижка	Students get a ten percent discount.	Студентам скидка десять процентов.	Студентам знижка десять відсотків.
+afford	əˈfɔːrd	verb	B1	shopping	позволить себе	дозволити собі	We can't afford a new car.	Мы не можем позволить себе новую машину.	Ми не можемо дозволити собі нову машину.
+available	əˈveɪləbəl	adj	B1	qualities	свободный, доступный	вільний, доступний	Is this table available?	Этот столик свободен?	Цей столик вільний?
+comfortable	ˈkʌmftərbəl	adj	B1	qualities	удобный	зручний	These shoes are very comfortable.	Эти туфли очень удобные.	Ці туфлі дуже зручні.
+convenient	kənˈviːniənt	adj	B1	qualities	удобный (по времени, месту)	зручний	Is Monday convenient for you?	Тебе удобно в понедельник?	Тобі зручно в понеділок?
+traffic	ˈtræfɪk	noun	B1	city	движение, пробки	рух, затори	The traffic is terrible today.	Сегодня ужасные пробки.	Сьогодні жахливі затори.
+parking lot	ˈpɑːrkɪŋ lɑːt	noun	B1	city	парковка	парковка	The parking lot is full.	Парковка заполнена.	Парковка заповнена.
+highway	ˈhaɪweɪ	noun	B1	travel	шоссе	шосе	Take the highway, it's faster.	Поезжай по шоссе, так быстрее.	Їдь шосе, так швидше.
+crowded	ˈkraʊdɪd	adj	B1	city	переполненный	переповнений	The subway is crowded in the morning.	Утром в метро много людей.	Уранці в метро багато людей.
+rarely	ˈrerli	adv	B1	time	редко	рідко	I rarely watch TV.	Я редко смотрю телевизор.	Я рідко дивлюся телевізор.
+probably	ˈprɑːbəbli	adv	B1	basics	вероятно	мабуть	It will probably rain.	Вероятно, пойдёт дождь.	Мабуть, піде дощ.
+actually	ˈæktʃuəli	adv	B1	basics	на самом деле	насправді	Actually, I'm from Ohio.	Вообще-то я из Огайо.	Насправді я з Огайо.
+although	ɔːlˈðoʊ	conj	B1	basics	хотя	хоча	Although it was cold, we went out.	Хотя было холодно, мы вышли на улицу.	Хоча було холодно, ми вийшли надвір.
+however	haʊˈevər	adv	B1	basics	однако	однак	The plan is good. However, it's expensive.	План хороший. Однако он дорогой.	План добрий. Однак він дорогий.
+instead	ɪnˈsted	adv	B1	basics	вместо этого	натомість	Let's walk instead.	Давай лучше пройдёмся пешком.	Давай краще пройдемося пішки.
+thorough	ˈθɜːroʊ	adj	B2	qualities	тщательный	ретельний	She did a thorough check.	Она провела тщательную проверку.	Вона провела ретельну перевірку.
+consistent	kənˈsɪstənt	adj	B2	qualities	последовательный, регулярный	послідовний, регулярний	Consistent practice is the key.	Ключ к успеху — регулярная практика.	Ключ до успіху — регулярна практика.
+crucial	ˈkruːʃəl	adj	B2	qualities	крайне важный	вкрай важливий	Sleep is crucial for memory.	Сон крайне важен для памяти.	Сон украй важливий для пам’яті.
+significant	sɪɡˈnɪfɪkənt	adj	B2	qualities	значительный	значний	There was a significant change.	Произошло значительное изменение.	Відбулася значна зміна.
+obvious	ˈɑːbviəs	adj	B2	qualities	очевидный	очевидний	The answer is obvious.	Ответ очевиден.	Відповідь очевидна.
+sophisticated	səˈfɪstɪkeɪtɪd	adj	B2	qualities	сложный, изощрённый	складний, витончений	It's a sophisticated system.	Это сложная система.	Це складна система.
+tremendous	trəˈmendəs	adj	B2	qualities	огромный	величезний	It was a tremendous success.	Это был огромный успех.	Це був величезний успіх.
+rely on	rɪˈlaɪ ɑːn	phr	B2	qualities	полагаться на	покладатися на	You can rely on me.	Можешь на меня положиться.	Можеш на мене покластися.
+efficient	ɪˈfɪʃənt	adj	B2	work	эффективный	ефективний	This method is more efficient.	Этот метод эффективнее.	Цей метод ефективніший.
+accomplish	əˈkɑːmplɪʃ	verb	B2	work	выполнять, достигать	виконувати, досягати	We accomplished a lot this week.	За эту неделю мы многое сделали.	Цього тижня ми багато зробили.
+negotiate	nɪˈɡoʊʃieɪt	verb	B2	work	вести переговоры	вести переговори	They negotiated a better price.	Они договорились о лучшей цене.	Вони домовилися про кращу ціну.
+approach	əˈproʊtʃ	noun	B2	work	подход	підхід	We need a different approach.	Нам нужен другой подход.	Нам потрібен інший підхід.
+commitment	kəˈmɪtmənt	noun	B2	work	обязательство, упорство	зобов’язання, наполегливість	Learning a language takes commitment.	Изучение языка требует упорства.	Вивчення мови вимагає наполегливості.
+benefits	ˈbenɪfɪts	noun	B2	work	соцпакет, льготы	соцпакет, пільги	The job has good benefits.	На этой работе хороший соцпакет.	На цій роботі добрий соцпакет.
+come up with	kʌm ˈʌp wɪð	phr	B2	work	придумать	вигадати	She came up with a great idea.	Она придумала отличную идею.	Вона вигадала чудову ідею.
+postpone	poʊstˈpoʊn	verb	B2	time	откладать, переносить	відкладати, переносити	The meeting was postponed.	Совещание перенесли.	Нараду перенесли.
+eventually	ɪˈventʃuəli	adv	B2	time	в конце концов	зрештою	Eventually, we found the hotel.	В конце концов мы нашли отель.	Зрештою ми знайшли готель.
+evidence	ˈevɪdəns	noun	B2	study	доказательства	докази	There is no evidence of that.	Этому нет доказательств.	Цьому немає доказів.
+insight	ˈɪnsaɪt	noun	B2	study	понимание, озарение	розуміння, інсайт	The book gives great insight into history.	Книга даёт глубокое понимание истории.	Книжка дає глибоке розуміння історії.
+assume	əˈsuːm	verb	B2	communication	предполагать	припускати	Don't assume anything.	Ничего не предполагай заранее.	Нічого не припускай заздалегідь.
+convince	kənˈvɪns	verb	B2	communication	убеждать	переконувати	She convinced me to try again.	Она убедила меня попробовать ещё раз.	Вона переконала мене спробувати ще раз.
+emphasize	ˈemfəsaɪz	verb	B2	communication	подчёркивать	наголошувати	The doctor emphasized the importance of sleep.	Врач подчеркнул важность сна.	Лікар наголосив на важливості сну.
+hesitate	ˈhezɪteɪt	verb	B2	communication	колебаться, стесняться	вагатися, соромитися	Don't hesitate to ask.	Не стесняйтесь спрашивать.	Не соромтеся питати.
+acknowledge	əkˈnɑːlɪdʒ	verb	B2	communication	признавать	визнавати	He acknowledged his mistake.	Он признал свою ошибку.	Він визнав свою помилку.
+overwhelmed	ˌoʊvərˈwelmd	adj	B2	feelings	перегруженный, подавленный	перевантажений, приголомшений	Many parents feel overwhelmed.	Многие родители чувствуют себя перегруженными.	Багато батьків почуваються перевантаженими.
+grateful	ˈɡreɪtfəl	adj	B2	feelings	благодарный	вдячний	We're grateful for your help.	Мы благодарны за вашу помощь.	Ми вдячні за вашу допомогу.
+frustrated	ˈfrʌstreɪtɪd	adj	B2	feelings	раздражённый, расстроенный	роздратований	He gets frustrated easily.	Он легко раздражается.	Він легко дратується.
+anxious	ˈæŋkʃəs	adj	B2	feelings	тревожный, волнующийся	стривожений	She's anxious about the exam.	Она волнуется из-за экзамена.	Вона хвилюється через іспит.
+determined	dɪˈtɜːrmɪnd	adj	B2	feelings	решительный, настроенный	рішучий, налаштований	They're determined to win.	Они настроены победить.	Вони налаштовані перемогти.
+reluctant	rɪˈlʌktənt	adj	B2	feelings	неохотный	неохочий	He was reluctant to help.	Ему не хотелось помогать.	Йому не хотілося допомагати.
+awkward	ˈɔːkwərd	adj	B2	feelings	неловкий	ніяковий	There was an awkward silence.	Повисла неловкая пауза.	Запала ніякова тиша.
+sustainable	səˈsteɪnəbəl	adj	B2	nature	экологичный, устойчивый	сталий, екологічний	We need sustainable energy.	Нам нужна экологичная энергия.	Нам потрібна стала енергетика.
+budget	ˈbʌdʒɪt	noun	B2	shopping	бюджет	бюджет	We're on a tight budget.	У нас ограниченный бюджет.	У нас обмежений бюджет.
+take advantage of	teɪk ədˈvæntɪdʒ əv	phr	B2	shopping	воспользоваться	скористатися	Take advantage of the discount.	Воспользуйтесь скидкой.	Скористайтеся знижкою.
+mortgage	ˈmɔːrɡɪdʒ	noun	B2	home	ипотека	іпотека	They took out a mortgage.	Они взяли ипотеку.	Вони взяли іпотеку.
+landlord	ˈlændlɔːrd	noun	B2	home	арендодатель	орендодавець	Call the landlord about the leak.	Позвони хозяину квартиры насчёт протечки.	Зателефонуй власникові квартири щодо протікання.
+lease	liːs	noun	B2	home	договор аренды	договір оренди	The lease ends in June.	Договор аренды заканчивается в июне.	Договір оренди закінчується в червні.
+get along	ɡet əˈlɔːŋ	phr	B2	people	ладить	ладнати	Do you get along with your coworkers?	Ты ладишь с коллегами?	Ти ладнаєш із колегами?
+accommodate	əˈkɑːmədeɪt	verb	B2	travel	размещать, вмещать	розміщувати, вміщати	The hotel can accommodate 200 guests.	Отель может разместить 200 гостей.	Готель може розмістити 200 гостей.
+deliberately	dɪˈlɪbərətli	adv	B2	basics	намеренно	навмисно	He did it deliberately.	Он сделал это намеренно.	Він зробив це навмисно.
+nevertheless	ˌnevərðəˈles	adv	B2	basics	тем не менее	проте	It was raining; nevertheless, we went out.	Шёл дождь, тем не менее мы вышли.	Ішов дощ, проте ми вийшли.
+whereas	werˈæz	conj	B2	basics	тогда как	тоді як	I like the city, whereas my husband prefers the country.	Мне нравится город, тогда как муж предпочитает деревню.	Мені подобається місто, тоді як чоловік надає перевагу селу.

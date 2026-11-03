@@ -1,0 +1,60 @@
+/* Layout and basics. Colors, fonts and effects come only from tokens.css. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; background: var(--bg-canvas); }
+body {
+  margin: 0; min-height: 100vh; min-height: 100dvh; background: var(--bg-canvas); color: var(--text-primary);
+  font: var(--font-body-m); -webkit-font-smoothing: antialiased; overscroll-behavior-y: none;
+  -webkit-tap-highlight-color: transparent;
+}
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer;
+  touch-action: manipulation; -webkit-user-select: none; user-select: none; text-align: inherit; }
+button:disabled { cursor: default; }
+button:focus-visible { outline: 2px solid var(--border-focus); outline-offset: 2px; }
+p, h1, h2, h3 { margin: 0; }
+svg { display: block; flex: none; }
+
+:root { --safe-top: env(safe-area-inset-top, 0px); --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --pad-bottom: max(24px, var(--safe-bottom)); --app-w: min(100vw, 430px); }
+
+#app { position: relative; max-width: 430px; margin: 0 auto; min-height: 100vh; min-height: 100dvh; }
+
+/* Festival backdrop: soft glows behind glass cards (hidden in Classic by --show-backdrop) */
+[data-theme="festival"] { --glow-lime: #e2ff6e; --glow-yellow: #fbfa90; --glow-blue: #c8d9dd; --glow-lavender: #dedcf6; }
+.backdrop { position: fixed; top: 0; bottom: 0; left: 50%; width: var(--app-w); transform: translateX(-50%);
+  display: var(--show-backdrop); pointer-events: none; overflow: hidden; z-index: 0; }
+.backdrop i { position: absolute; border-radius: 50%; aspect-ratio: 1; }
+.backdrop .g-lime { width: 66.7%; left: 51.3%; top: -9.5%; background: var(--glow-lime); opacity: .38; filter: blur(50px); }
+.backdrop .g-yellow { width: 59%; left: -25.6%; top: 17.8%; background: var(--glow-yellow); opacity: .32; filter: blur(45px); }
+.backdrop .g-blue { width: 92.3%; left: -43.6%; top: 51%; background: var(--glow-blue); opacity: .55; filter: blur(55px); }
+.backdrop .g-lavender { width: 87.2%; left: 38.5%; top: 72.3%; background: var(--glow-lavender); opacity: .62; filter: blur(55px); }
+
+/* Screens */
+.screen { position: relative; z-index: 1; display: flex; flex-direction: column; min-height: 100vh; min-height: 100dvh;
+  padding: calc(var(--safe-top) + 12px) 20px var(--pad-bottom); gap: 14px; }
+.screen--tab { padding-bottom: calc(var(--pad-bottom) + 96px); }
+.screen > * { flex: none; }
+.spacer { flex: 1 1 auto !important; min-height: 8px; }
+.row { display: flex; align-items: center; }
+.col { display: flex; flex-direction: column; }
+.between { justify-content: space-between; }
+.center { align-items: center; justify-content: center; text-align: center; }
+.grow { flex: 1 1 auto; min-width: 0; }
+.wrap { flex-wrap: wrap; }
+.g2 { gap: 2px; } .g4 { gap: 4px; } .g6 { gap: 6px; } .g8 { gap: 8px; } .g10 { gap: 10px; } .g12 { gap: 12px; }
+.g14 { gap: 14px; } .g16 { gap: 16px; } .g18 { gap: 18px; } .g20 { gap: 20px; } .g24 { gap: 24px; }
+.mt4 { margin-top: 4px; }
+
+/* Text colors */
+.c-primary { color: var(--text-primary); } .c-secondary { color: var(--text-secondary); } .c-tertiary { color: var(--text-tertiary); }
+.c-on-accent { color: var(--text-on-accent); } .c-on-pastel { color: var(--text-on-pastel); }
+.c-on-inverse { color: var(--text-on-inverse); } .c-on-inverse-2 { color: var(--text-on-inverse-2); }
+.c-inverse-accent { color: var(--text-inverse-accent); } .c-danger { color: var(--text-danger); }
+.pre { white-space: pre-line; } .nowrap { white-space: nowrap; } .right { text-align: right; } .tc { text-align: center; }
+.ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tnum { font-variant-numeric: tabular-nums; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* Screen transitions */
+.screen { animation: screen-in .22s ease-out; }
+@keyframes screen-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .screen { animation: none; } }
