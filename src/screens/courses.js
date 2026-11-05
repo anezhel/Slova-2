@@ -1,12 +1,16 @@
 // 08 Курсы · Слова по темам
-import { html } from '../../lib/preact-htm.js';
+import { html, useState } from '../../lib/preact-htm.js';
 import { t, plural, num } from '../i18n/index.js';
 import { LANGUAGES, LEVELS, TOPICS, getPack, tr, wordTr } from '../content/index.js';
 import { getState, update, course } from '../core/store.js';
 import { courseStats } from '../core/stats.js';
 import { verbsSummary } from '../core/session.js';
+import { groupSummary } from '../core/groups.js';
 import { bucket } from '../core/srs.js';
-import { Segmented, GroupRow, IconButton, Chip, BackHeader, StatusDot } from '../ui/kit.js';
+import { Segmented, GroupRow, IconButton, Chip, BackHeader, StatusDot, cx } from '../ui/kit.js';
+
+// Groups after «Слова по темам»: [progress key, tile, color, screen]. A group shows up when the language has its table.
+const GROUPS = [['phrasal', 'up', 'peach', 'phrasal'], ['syn', '≈', 'pink', 'syn']];
 
 const TINTS = ['lime', 'lavender', 'peach', 'pink', 'mint', 'sky', 'coral'];
 
@@ -21,6 +25,12 @@ export function Courses({ go }) {
   if (pack.verbs && pack.verbs.length) {
     const v = verbsSummary(pack);
     groups.push(html`<${GroupRow} key="verbs" tile="V3" tint="lavender" title=${t('courses.verbs')} subtitle=${t('courses.verbsSub')} count=${`${v.learned}/${v.total}`} onClick=${() => go('verbs')} />`);
+  }
+  for (const [kind, tile, tint, screen] of GROUPS) {
+    if (!pack[kind] || !pack[kind].length) continue;
+    const g = groupSummary(pack, kind);
+    groups.push(html`<${GroupRow} key=${kind} tile=${tile} tint=${tint} title=${t('courses.' + kind)} subtitle=${t('courses.' + kind + 'Sub')}
+      count=${`${g.learned}/${g.total}`} onClick=${() => go(screen)} />`);
   }
   return html`<div class="screen screen--tab g16">
     <div class="row between"><h1 class="t-heading-h2">${t('courses.title')}</h1><${IconButton} icon="plus" onClick=${() => go('settings')} label=${t('settings.course')} /></div>
@@ -68,11 +78,16 @@ export function TopicWords({ go, route }) {
   const s = getState();
   const pack = getPack(s.course);
   const cs = course(pack.id);
-  const ws = pack.words.filter((w) => w.topic === route.topic);
+  const [lvl, setLvl] = useState(null);
+  const all = pack.words.filter((w) => w.topic === route.topic);
+  const ws = all.filter((w) => !lvl || w.lvl === lvl);
+  const levels = LEVELS.filter((l) => all.some((w) => w.lvl === l));
   const name = tr(TOPICS[route.topic], s.ui) || '';
   return html`<div class="screen g14">
     <${BackHeader} onBack=${() => go('topics')} right=${html`<${Chip} label=${tr(pack.name, s.ui)} />`} />
     <h1 class="t-heading-h3">${name.charAt(0).toUpperCase() + name.slice(1)}</h1>
+    ${levels.length > 1 && html`<div class="row g6 wrap">${[null, ...levels].map((l) => html`<button key=${l || 'all'}
+      class=${cx('segment', 'segment--s', l === lvl && 'segment--on')} onClick=${() => setLvl(l)}>${l || t('verbs.all')}</button>`)}</div>`}
     <div class="col g6">${ws.map((w) => {
       const b = bucket(cs.words[w.id]);
       return html`<div class="vrow card" key=${w.id}><span class="col" style="flex:1 1 auto;min-width:0"><span class="t-body-l-strong ellipsis">${w.w}</span></span>

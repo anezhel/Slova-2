@@ -7,6 +7,7 @@ export const SETTINGS = [
   { type: 'levels' },         // Уровни слов
   { type: 'perDay' },         // Слов в день: 10–50
   { type: 'pronunciation' },  // Озвучивать слово сразу + нет голоса
+  { type: 'speakAloud' },     // Отвечать вслух: пауза на ответ голосом в уроке
   { type: 'reminder' },       // Напоминание (подсказка)
   { type: 'backup' },         // Резервная копия
   { type: 'howItWorks' },     // Как работает повторение

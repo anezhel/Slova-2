@@ -229,7 +229,9 @@ export function testWords(pack, n = CONFIG.testSize) {
   const plan = ['A1', 'A1', 'A2', 'A2', 'B1', 'B2'].slice(0, n);
   const used = new Set();
   return plan.map((lvl) => {
-    const pool = pack.words.filter((w) => w.lvl === lvl && !used.has(w.id) && w.w.length > 2);
+    // content words only: "and", "in" or "a lot" say little about the vocabulary size
+    const pool = pack.words.filter((w) => w.lvl === lvl && !used.has(w.id) && w.w.length > 2 && !w.w.includes(' ')
+      && !['prep', 'conj', 'det', 'pron', 'num', 'int', 'phr'].includes(w.pos));
     const w = pool[Math.floor(Math.random() * pool.length)];
     if (w) used.add(w.id);
     return w;

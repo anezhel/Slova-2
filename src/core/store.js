@@ -9,7 +9,8 @@ const fresh = () => ({
   course: null,          // studied language (pack id)
   onboarded: false,
   autoplay: true,        // «Озвучивать слово сразу»
-  courses: {},           // per language: levels, perDay, words {id: card}, verbs {id: card}
+  speak: true,           // «Отвечать вслух»: pause in the lesson to say the word aloud
+  courses: {},           // per language: levels, perDay, words / verbs / phrasal / syn {id: card}
   log: {},               // per day: answers, seconds, per language counters
 });
 
@@ -40,9 +41,9 @@ export function replaceState(s) { state = migrate(s); flush(); emit(); }
 export const subscribe = (f) => { subs.add(f); return () => subs.delete(f); };
 
 export function course(id = state.course) {
-  if (!state.courses[id]) state.courses[id] = { levels: [], perDay: CONFIG.perDayDefault, words: {}, verbs: {} };
+  if (!state.courses[id]) state.courses[id] = { levels: [], perDay: CONFIG.perDayDefault, words: {}, verbs: {}, phrasal: {}, syn: {} };
   const c = state.courses[id];
-  c.words = c.words || {}; c.verbs = c.verbs || {}; c.levels = c.levels || [];
+  c.words = c.words || {}; c.verbs = c.verbs || {}; c.phrasal = c.phrasal || {}; c.syn = c.syn || {}; c.levels = c.levels || [];
   return c;
 }
 export function dayLog(key) {

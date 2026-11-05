@@ -57,6 +57,10 @@ const BLOCKS = {
     </div></${Block}>`;
   },
 
+  speakAloud: ({ s }) => html`<${Block} label=${t('settings.speak')} note=${t('settings.speakNote')}><div class="card r28 p16">
+    <${ToggleRow} title=${t('settings.speakTitle')} subtitle=${t('settings.speakSub', { n: CONFIG.answerPause })} on=${s.speak} onChange=${(v) => update((x) => { x.speak = v; })} />
+  </div></${Block}>`,
+
   reminder: () => html`<${Block} label=${t('settings.reminder')}><div class="card r28 p16"><${InfoRow} icon="bell" text=${t('settings.reminderText')} /></div></${Block}>`,
 
   backup: ({ toast, confirm }) => {
@@ -81,7 +85,7 @@ const BLOCKS = {
     const name = tr(pack.lower, s.ui);
     const go = async () => {
       if (await confirm({ title: t('settings.resetTitle'), text: t('settings.resetText', { name }), yes: t('settings.resetYes'), danger: true })) {
-        update((x) => { const c = course(pack.id); c.words = {}; c.verbs = {}; for (const d of Object.values(x.log)) if (d.c) delete d.c[pack.id]; });
+        update((x) => { const c = course(pack.id); c.words = {}; c.verbs = {}; c.phrasal = {}; c.syn = {}; for (const d of Object.values(x.log)) if (d.c) delete d.c[pack.id]; });
         toast(t('settings.resetDone'));
       }
     };

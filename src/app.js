@@ -9,12 +9,14 @@ import { Today } from './screens/today.js';
 import { Lesson } from './screens/lesson.js';
 import { Courses, Topics, TopicWords } from './screens/courses.js';
 import { Verbs, Drill } from './screens/verbs.js';
+import { PhrasalVerbs, PhrasalDrill, Synonyms, SynDrill } from './screens/groups.js';
 import { Progress } from './screens/progress.js';
 import { Settings } from './screens/settings.js';
 
 // Screen name -> component. A new screen = one line here.
 const SCREENS = { onboarding: Onboarding, test: VocabTest, today: Today, lesson: Lesson, courses: Courses, topics: Topics,
-  topic: TopicWords, verbs: Verbs, drill: Drill, progress: Progress, settings: Settings };
+  topic: TopicWords, verbs: Verbs, drill: Drill, phrasal: PhrasalVerbs, phrasalDrill: PhrasalDrill, syn: Synonyms, synDrill: SynDrill,
+  progress: Progress, settings: Settings };
 const TABS = ['today', 'courses', 'progress', 'settings'];
 
 export function App() {

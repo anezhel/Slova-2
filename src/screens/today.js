@@ -4,6 +4,7 @@ import { t, plural, num } from '../i18n/index.js';
 import { getPack } from '../content/index.js';
 import { getState, course } from '../core/store.js';
 import { planToday, forecast, verbsSummary, todaysWords } from '../core/session.js';
+import { groupSummary } from '../core/groups.js';
 import { streak } from '../core/stats.js';
 import { addDays } from '../core/dates.js';
 import { Button, Progress, Chip, Icon } from '../ui/kit.js';
@@ -33,6 +34,19 @@ function VerbsTile({ pack, go }) {
   </button>`;
 }
 
+// Phrasal verbs and synonyms: a tile only when something is due today
+function GroupTiles({ pack, go }) {
+  return [['phrasal', 'up'], ['syn', '≈']].filter(([kind]) => pack[kind] && pack[kind].length).map(([kind, tile]) => {
+    const g = groupSummary(pack, kind);
+    return g.due ? html`<button key=${kind} class="inverse r28 row g14" style="height:80px;padding:0 14px;text-align:left" onClick=${() => go(kind)}>
+      <span class="rfull row center" style="width:52px;height:52px;background:var(--bg-inverse-2);flex:none"><span class="t-body-l-strong c-inverse-accent">${tile}</span></span>
+      <span class="col g2 grow"><span class="t-body-l-strong c-on-inverse">${t('courses.' + kind)}</span>
+        <span class="t-caption-regular c-on-inverse-2">${t('today.groupDue', { n: g.due })}</span></span>
+      <span class="rfull row center" style="width:48px;height:48px;background:var(--bg-cta-on-inverse);color:var(--text-on-cta-inverse);flex:none"><${Icon} name="arrow-right" size=${18} /></span>
+    </button>` : null;
+  });
+}
+
 export function Today({ go }) {
   const s = getState();
   const pack = getPack(s.course);
@@ -51,6 +65,7 @@ export function Today({ go }) {
         <${Button} label=${t('today.openSettings')} arrow onClick=${() => go('settings')} />
         ${!noLevels && again && html`<${Button} label=${t('today.again')} variant="secondary" onClick=${() => go('lesson', { practice: true })} />`}</div>
       ${verbs && html`<${VerbsTile} pack=${pack} go=${go} />`}
+      <${GroupTiles} pack=${pack} go=${go} />
     </div>`;
   }
 
@@ -68,6 +83,7 @@ export function Today({ go }) {
       </div>
       <${Forecast} counts=${fc} doneToday=${true} />
       ${verbs && html`<${VerbsTile} pack=${pack} go=${go} />`}
+      <${GroupTiles} pack=${pack} go=${go} />
     </div>`;
   }
 
@@ -82,5 +98,6 @@ export function Today({ go }) {
     </div>
     <${Forecast} counts=${fc} doneToday=${false} />
     ${verbs && html`<${VerbsTile} pack=${pack} go=${go} />`}
+      <${GroupTiles} pack=${pack} go=${go} />
   </div>`;
 }

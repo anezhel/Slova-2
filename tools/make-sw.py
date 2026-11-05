@@ -30,8 +30,9 @@ self.addEventListener('install', (e) => {{
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(FILES.map((u) => new Request(u, {{ cache: 'reload' }})))).then(() => self.skipWaiting()));
 }});
 
+// Only vocca's own old caches are removed: other apps on the same github.io address keep theirs.
 self.addEventListener('activate', (e) => {{
-  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith('vocca-') && k !== VERSION).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
 }});
 
 // Cache first (works without internet); falls back to the network for anything new.

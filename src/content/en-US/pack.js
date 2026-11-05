@@ -1,4 +1,5 @@
-// Language pack: American English. Words — words.tsv, irregular verbs — verbs.tsv (open in Excel/Numbers).
+// Language pack: American English. Words — words.tsv, irregular verbs — verbs.tsv, phrasal verbs — phrasal.tsv,
+// synonyms and antonyms — syn.tsv (all open in Excel/Numbers). A group without its file simply isn't shown.
 export default {
   id: 'en-US',
   code: 'EN',
@@ -7,7 +8,7 @@ export default {
   tts: 'en-US',          // voice for pronunciation
   ipa: true,             // words have a US transcription
   tint: 'lavender',      // color of this language on «Прогресс»
-  files: { words: 'words.tsv', verbs: 'verbs.tsv' },
+  files: { words: 'words.tsv', verbs: 'verbs.tsv', phrasal: 'phrasal.tsv', syn: 'syn.tsv' },
   noVoice: {
     ru: 'На этом устройстве нет английского голоса, поэтому английские карточки будут без звука.',
     uk: 'На цьому пристрої немає англійського голосу, тому англійські картки будуть без звуку.',

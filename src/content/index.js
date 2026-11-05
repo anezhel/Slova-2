@@ -44,6 +44,23 @@ export async function loadContent() {
         note: r.note ? { ru: r.note, uk: r.note_uk || r.note } : null }));
       p.verbById = new Map(p.verbs.map((v) => [v.id, v]));
     }
+    // Phrasal verbs: "give up" → verb "give", particle "up". [Brackets] in the example mark the phrasal verb.
+    if (p.files.phrasal) {
+      p.phrasal = (await fetchTable(p, p.files.phrasal)).filter((r) => r.phrasal && LEVELS.includes(r.level)).map((r) => {
+        const [verb, ...rest] = r.phrasal.trim().split(/\s+/);
+        return { id: r.phrasal, ph: r.phrasal, verb, part: rest.join(' '), key: rest[0] || '', lvl: r.level, ru: r.ru, uk: r.uk || r.ru,
+          ex: r.example || '', exRu: r.example_ru || '', exUk: r.example_uk || r.example_ru || '',
+          note: r.note ? { ru: r.note, uk: r.note_uk || r.note } : null };
+      });
+      p.phrasalById = new Map(p.phrasal.map((x) => [x.id, x]));
+    }
+    // Synonyms and antonyms: a word, one synonym and one antonym, each with its translation.
+    if (p.files.syn) {
+      p.syn = (await fetchTable(p, p.files.syn)).filter((r) => r.word && r.syn && r.ant && LEVELS.includes(r.level)).map((r) => ({
+        id: r.word, w: r.word, pos: r.pos || '', lvl: r.level, s: r.syn, a: r.ant, ru: r.ru, uk: r.uk || r.ru,
+        sRu: r.syn_ru || '', sUk: r.syn_uk || r.syn_ru || '', aRu: r.ant_ru || '', aUk: r.ant_uk || r.ant_ru || '' }));
+      p.synById = new Map(p.syn.map((x) => [x.id, x]));
+    }
   }));
 }
 

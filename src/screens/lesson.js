@@ -73,12 +73,12 @@ export function Lesson({ go, route, confirm }) {
       </div>
       ${word.ex && html`<button class="soft r24 col g4" style="padding:14px 16px;text-align:left" onClick=${() => voice && tts.speak(word.ex, pack.tts)}>
         <span class="t-body-l-medium">${word.ex}</span><span class="t-body-s c-secondary">${exTr(word, ui)}</span></button>`}
-      <div class="spacer col" style="justify-content:flex-end"><p class="t-body-s c-secondary tc">${t('lesson.sayAloud')}</p></div>
+      <div class="spacer col" style="justify-content:flex-end">${s.speak && html`<p class="t-body-s c-secondary tc">${t('lesson.sayAloud')}</p>`}</div>
       <${Button} label=${t('common.next')} arrow onClick=${() => { introDone(L, word.id); advance(); }} />
     </div>`;
   }
 
-  if (phase === 'recall') return html`<${Recall} key=${word.id + ':' + L.pos} L=${L} word=${word} ui=${ui} done=${done} close=${close} onReveal=${() => setPhase('answer')} />`;
+  if (phase === 'recall') return html`<${Recall} key=${word.id + ':' + L.pos} L=${L} word=${word} ui=${ui} done=${done} close=${close} speak=${s.speak} onReveal=${() => setPhase('answer')} />`;
 
   // answer + rating
   const preview = rating || 'good';
@@ -107,17 +107,28 @@ export function Lesson({ go, route, confirm }) {
   </div>`;
 }
 
-function Recall({ L, word, ui, done, close, onReveal }) {
+// speak = «Отвечать вслух» in settings: pause with a countdown. Without it: recall silently, the answer opens by the button.
+function Recall({ L, word, ui, done, close, onReveal, speak }) {
   const total = CONFIG.answerPause;
   const [left, setLeft] = useState(total);
   useEffect(() => {
+    if (!speak) return;
     if (left <= 0) { const id = setTimeout(onReveal, 350); return () => clearTimeout(id); }
     const id = setTimeout(() => setLeft(left - 1), 1000);
     return () => clearTimeout(id);
   }, [left]);
   const ctx = blank(word.ex, word.w);
+  const header = html`<${LessonHeader} onClose=${close} n=${L.total} done=${done} counter=${`${Math.min(L.total, done + 1)}/${L.total}`} />`;
+  if (!speak) return html`<div class="screen g14">
+    ${header}
+    <div class="col center g10 spacer">
+      <span class="t-title-s c-secondary">${t('lesson.think')}</span>
+      <span class="t-display-m">«${wordTr(word, ui)}»</span>${ctx && html`<span class="t-body-m c-secondary">${ctx}</span>`}
+    </div>
+    <${Button} label=${t('lesson.reveal')} arrow onClick=${onReveal} />
+  </div>`;
   return html`<div class="screen g14">
-    <${LessonHeader} onClose=${close} n=${L.total} done=${done} counter=${`${Math.min(L.total, done + 1)}/${L.total}`} />
+    ${header}
     <div class="col g4 center"><span class="t-display-m">«${wordTr(word, ui)}»</span>${ctx && html`<span class="t-body-m c-secondary">${ctx}</span>`}</div>
     <div class="col center g18 spacer">
       <${Orb} count=${left} frac=${left / total} />
